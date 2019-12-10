@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ShoppingV2.Web.Models.Order.OrdersViewModel>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "View Orders";
+}
+<html>
+<body>
+    <form action="SetDetails" method="post">
+        <h1 style="text-align:center">View Orders</h1>
+        <br />
+        <br />
+        @*<div class="text-center">
+                <label id="lblgetorderid">Order ID : </label>
+                <input type="text" id="txtgetorderid" />
+                <label id="getorderdate">Date : </label>
+                <input type="text" id="txtdateoforder" />
+                <a role="button" id="btnsearch" class="btn btn-warning">Search</a>
+                <br />
+
+            </div>*@
+        <div class="align-center">
+            <br />
+            <table class="table" id="orderstable" title="orderstable" align="center">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer ID</th>
+                        <th>Order Date</th>
+                    </tr>
+                    @foreach (var products in Model)
+                    {
+                        <tr>
+                            <td><p name="getorderid">@products.Id</p></td>
+                            <td><p id="getcustomerid"> @products.CustomerId</p></td>
+                            <td><p id="getorderdate">@products.ProductOrderDate</p></td>
+                            <td>
+                                <a role="button" id="btnedit" asp-route-ordid="@products.Id" asp-controller="Orders" asp-action="OrderItems" class="btn btn-warning" onclick="LoadOrderItems();">View Details</a>
+                                <a role="button" id="btndelete" class="btn btn-danger" style="color:white" onclick="deleteEntireOrder();">Delete Order</a>
+                            </td>
+                        </tr>
+                    }
+
+                </thead>
+            </table>
+        </div>
+    </form>
+    <script src="~/js/viewOrders.js"></script>
+    <script src="~/js/addCartItem.js"></script>
+</body>
+</html>
+

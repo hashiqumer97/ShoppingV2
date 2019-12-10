@@ -1,5 +1,6 @@
 ﻿using Abp.Application.Services.Dto;
 using ShoppingV2.Application.BusinessObjects;
+using ShoppingV2.Order;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -19,6 +20,27 @@ namespace ShoppingV2.BusinessObjects
         public List<OrderItemBL> OrderLineItems { get; set; }
 
         public bool IsDelete { get; set; }
+
+        public OrderBL Create(int customerId, List<OrderItemBL> orderItems, int productId,
+            string productOrderDate, int productQuantity, int productPrice)
+        {
+            CustomerId = customerId;
+            OrderLineItems = orderItems;
+            ProductId = productId;
+            ProductOrderDate = productOrderDate;
+            ProductQuantity = productQuantity;
+            ProductPrice = productPrice;
+
+            foreach(var item in orderItems)
+            {
+                if(item.OrderitemQuantity >= 100)
+                {
+                    throw new InvalidOperationException("Your Order cannot be added because the quantity is over the limit!");
+                }
+            }
+
+            return this;
+        }
 
     }
 }

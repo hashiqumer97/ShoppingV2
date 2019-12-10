@@ -66,10 +66,19 @@ namespace ShoppingV2.Web.Controllers
         [HttpPost]
         public IActionResult CreateOrder([FromBody]OrdersViewModel ordersViewModel)
         {
-             var order = objectMapper.Map<OrderBL>(ordersViewModel);
-             orderService.CreateOrder(order);
+            try
+            {
+                var order = objectMapper.Map<OrderBL>(ordersViewModel);
+                orderService.CreateOrder(order);
 
-            return RedirectToAction("AddCart", "AddCart");
+                return RedirectToAction("AddCart", "AddCart");
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex);
+            }
+            
         }
     }
 }

@@ -38,7 +38,9 @@ namespace ShoppingV2.Service
         }
         public void CreateOrder(OrderBL order)
         {
-            var ord = objectMapper.Map<OrderDL>(order);
+            var ordtemp = order.Create(order.CustomerId, order.OrderLineItems, order.ProductId,
+                order.ProductOrderDate, order.ProductQuantity, order.ProductPrice);
+            var ord = objectMapper.Map<OrderDL>(ordtemp);
             repository.Insert(ord);
             foreach (var item in order.OrderLineItems)
             {

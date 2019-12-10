@@ -206,15 +206,20 @@ function confirmOrder() {
         type: 'post',
         contentType: 'application/json',
         data: JSON.stringify(orders),
-        processData: false,
+        processData: true,
         success: function (data, textStatus, jQxhr) {
             console.log(data, textStatus, jQxhr);
+            alert("The Order has been saved Successfully!");
+            location.reload();
         },
         error: function (jqXhr, textStatus, errorThrown) {
             console.log(jqXhr, textStatus, errorThrown);
+            alert("Oh Sorry! Your Order cannot be added because the quantity is over the limit!");
+            location.reload();
         }
+        
     });
-    alert("The Order has been saved Successfully!");
+    alert("The Order has been checked and saved Successfully!");
     location.reload();
 }
 

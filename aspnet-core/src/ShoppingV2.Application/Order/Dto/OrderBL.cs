@@ -1,6 +1,5 @@
 ﻿using Abp.Application.Services.Dto;
 using ShoppingV2.Application.BusinessObjects;
-using ShoppingV2.Order;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -35,10 +34,16 @@ namespace ShoppingV2.BusinessObjects
             {
                 if(item.OrderitemQuantity >= 100)
                 {
-                    throw new InvalidOperationException("Your Order cannot be added because the quantity is over the limit!");
+                    throw new InvalidOperationException("Oh Sorry! Your Order cannot be added because the quantity is over the limit!");
                 }
             }
 
+            return this;
+        }
+
+        public OrderBL Delete(int orderId)
+        {
+            Id = orderId;
             return this;
         }
 

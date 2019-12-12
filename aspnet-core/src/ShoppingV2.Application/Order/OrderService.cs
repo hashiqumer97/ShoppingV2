@@ -50,7 +50,8 @@ namespace ShoppingV2.Service
         }
         public void DeleteEntireOrder(OrderBL orders)
         {
-            var order = objectMapper.Map<OrderDL>(orders);
+            var orddelete = orders.Delete(orders.Id);
+            var order = objectMapper.Map<OrderDL>(orddelete);
             repository.Delete(order);
         }
         public void ChangeOrder(OrderBL items)
@@ -58,24 +59,23 @@ namespace ShoppingV2.Service
             foreach (var item in items.OrderLineItems)
             {
                 var tempordline = itemrepository.Get(item.Id);
-                var tempdiff = tempordline.OrderitemQuantity - item.OrderitemQuantity;
+                item.Update(item.Id, item.OrderitemDate, item.ProductId, item.OrderId,
+                    item.OrderitemUnitPrice, item.OrderitemQuantity, item.OrderitemProductPrice
+                    , tempordline.OrderitemQuantity, item.IsDelete);
                 tempordline.OrderitemQuantity = item.OrderitemQuantity;
-                tempordline.OrderitemProductPrice = item.OrderitemProductPrice;
                 tempordline.OrderitemDate = item.OrderitemDate;
+                tempordline.OrderitemProductPrice = item.OrderitemProductPrice;
                 if (item.IsDelete)
                 {
-                    var orderitem = objectMapper.Map<OrderItemDL>(item);
-                    if (orderitem is null) continue;
                     itemrepository.Delete(tempordline);
                 }
                 else
                 {
-                    var orderitem = objectMapper.Map<OrderItemDL>(item);
-                    if (orderitem is null) continue;
                     itemrepository.Update(tempordline);
                 }
-                productService.Update(item.ProductId, tempdiff);
+                productService.Update(item.ProductId, item.DiffQuantity);
             }
+            unitOfWork.SaveChanges();
         }
         public OrderBL GetOrderById(int id)
         {

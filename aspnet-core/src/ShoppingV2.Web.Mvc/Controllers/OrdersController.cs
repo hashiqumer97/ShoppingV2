@@ -49,9 +49,17 @@ namespace ShoppingV2.Web.Controllers
         [HttpPost]
         public IActionResult EditOrders([FromBody]OrdersViewModel ordersViewModel)
         {
-            var order = objectMapper.Map<OrderBL>(ordersViewModel);
-            orderService.ChangeOrder(order);
-            return RedirectToAction("AddCart", "AddCart");
+            try
+            {
+                var order = objectMapper.Map<OrderBL>(ordersViewModel);
+                orderService.ChangeOrder(order);
+                return RedirectToAction("AddCart", "AddCart");
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex);
+            }
         }
 
         [HttpPost]

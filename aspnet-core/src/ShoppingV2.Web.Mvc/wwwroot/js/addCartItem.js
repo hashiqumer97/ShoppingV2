@@ -199,27 +199,24 @@ function confirmOrder() {
         OrderLineItems: products
     };
     console.log(JSON.stringify(orders));
-
     $.ajax({
         url: '../AddCart/CreateOrder',
         dataType: 'json',
         type: 'post',
         contentType: 'application/json',
         data: JSON.stringify(orders),
-        processData: true,
-        success: function (data, textStatus, jQxhr) {
-            console.log(data, textStatus, jQxhr);
-            alert("The Order has been saved Successfully!");
+        processData: false,
+        success: function (data) {
+            console.log(data);
+            alert("The Selected OrderLine(s) has been checked and saved Successfully!");
             location.reload();
         },
-        error: function (jqXhr, textStatus, errorThrown) {
-            console.log(jqXhr, textStatus, errorThrown);
-            alert("Oh Sorry! Your Order cannot be added because the quantity is over the limit!");
+        error: function () {
             location.reload();
         }
-        
+
     });
-    alert("The Order has been checked and saved Successfully!");
+    alert("The order has been checked and updated Successfully! If the Quantity is above 100 the order will not be updated successfully!");
     location.reload();
 }
 
@@ -266,7 +263,7 @@ function deleteEntireOrder() {
                     console.log(jqXhr, textStatus, errorThrown);
                 }
             });
-            alert("The Order has been deleted Successfully!");
+            alert("The Order has been checked and deleted Successfully!");
             location.reload();
         }
     }

@@ -52,7 +52,8 @@ function updateOrder() {
 
     console.log(JSON.stringify(order));
     $.ajax({
-        url: '../Orders/EditOrders',
+        //url: '../Orders/EditOrders',
+        url: 'http://localhost:21021/api/v1/Orders/EditOrders',
         dataType: 'json',
         type: 'post',
         contentType: 'application/json',
@@ -113,7 +114,8 @@ function deleteOrder() {
 
     console.log(JSON.stringify(order));
     $.ajax({
-        url: '../Orders/DeleteOrder',
+       // url: '../Orders/DeleteOrder',
+        url: 'http://localhost:21021/api/v1/Orders/DeleteOrder',
         dataType: 'json',
         type: 'post',
         contentType: 'application/json',

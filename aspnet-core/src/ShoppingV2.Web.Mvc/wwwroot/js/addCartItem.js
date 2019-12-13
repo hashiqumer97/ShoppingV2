@@ -198,9 +198,12 @@ function confirmOrder() {
         CustomerId: parseInt(customer),
         OrderLineItems: products
     };
+
     console.log(JSON.stringify(orders));
+
     $.ajax({
-        url: '../AddCart/CreateOrder',
+        //url: '../AddCart/CreateOrder',
+        url: 'http://localhost:21021/api/v1/AddCart',
         dataType: 'json',
         type: 'post',
         contentType: 'application/json',
@@ -216,7 +219,7 @@ function confirmOrder() {
         }
 
     });
-    alert("The order has been checked and updated Successfully! If the Quantity is above 100 the order will not be updated successfully!");
+    alert("The order has been checked and saved Successfully! If the Quantity is above 100 the order will not be updated successfully!");
     location.reload();
 }
 
@@ -250,7 +253,8 @@ function deleteEntireOrder() {
             };
             console.log(JSON.stringify(orders));
             $.ajax({
-                url: '../Orders/DeleteEntireOrder',
+                //url: '../Orders/DeleteEntireOrder',
+                url: 'http://localhost:21021/api/v1/Orders',
                 dataType: 'json',
                 type: 'post',
                 contentType: 'application/json',

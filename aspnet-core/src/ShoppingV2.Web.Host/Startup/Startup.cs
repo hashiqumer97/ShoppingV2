@@ -18,12 +18,14 @@ using Abp.Dependency;
 using Abp.Json;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Serialization;
+using ShoppingV2.ServiceInterface;
+using ShoppingV2.Service;
 
 namespace ShoppingV2.Web.Host.Startup
 {
     public class Startup
     {
-        private const string _defaultCorsPolicyName = "localhost";
+        private const string _defaultCorsPolicyName = "http://localhost:21021";
 
         private readonly IConfigurationRoot _appConfiguration;
         [Obsolete]
@@ -46,6 +48,7 @@ namespace ShoppingV2.Web.Host.Startup
                 {
                     NamingStrategy = new CamelCaseNamingStrategy()
                 };
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
             });
 
 
@@ -54,6 +57,9 @@ namespace ShoppingV2.Web.Host.Startup
             AuthConfigurer.Configure(services, _appConfiguration);
 
             services.AddSignalR();
+            services.AddTransient<IOrderService, OrderService>();
+            services.AddTransient<IProductService,ProductService >();
+            services.AddTransient<ICustomerService, CustomerService>();
 
             // Configure CORS for angular2 UI
             services.AddCors(

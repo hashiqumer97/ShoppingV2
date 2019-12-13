@@ -4,6 +4,7 @@ using Abp.Modules;
 using Abp.Reflection.Extensions;
 using ShoppingV2.Configuration;
 using System;
+using Abp.AutoMapper;
 
 namespace ShoppingV2.Web.Host.Startup
 {
@@ -24,7 +25,14 @@ namespace ShoppingV2.Web.Host.Startup
 
         public override void Initialize()
         {
-            IocManager.RegisterAssemblyByConvention(typeof(ShoppingV2WebHostModule).GetAssembly());
+            var thisAssembly = typeof(ShoppingV2WebHostModule).GetAssembly();
+
+            IocManager.RegisterAssemblyByConvention(thisAssembly);
+
+            Configuration.Modules.AbpAutoMapper().Configurators.Add(
+                // Scan the assembly for classes which inherit from AutoMapper.Profile
+                cfg => cfg.AddMaps(thisAssembly)
+            );
         }
     }
 }

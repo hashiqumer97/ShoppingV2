@@ -25,20 +25,20 @@ namespace ShoppingV2.Web.Host.Controllers
             this.orderService = orderService;
             this.objectMapper = objectMapper;
         }
-        [HttpGet("{orders}")]
+        [HttpGet("orders")]
         [AbpMvcAuthorize]
         public IActionResult Orders()
         {
             var model = ObjectMapper.Map<IEnumerable<OrdersViewModel>>(orderService.GetOrders());
             return View(model);
         }
-        [HttpGet("{Getordersbyid}")]
+        [HttpGet("Getordersbyid")]
         public IActionResult GetOrdersById(int id)
         {
             var result = orderService.GetOrderById(id);
             return Json(result);
         }
-        [HttpGet("{Orderitems}")]
+        [HttpGet("Orderitems")]
         [AbpMvcAuthorize]
         public IActionResult OrderItems(int ordid)
         {
@@ -47,7 +47,7 @@ namespace ShoppingV2.Web.Host.Controllers
             return View(obj);
         }
 
-        [HttpPut("{EditOrders}")]
+        [HttpPost("EditOrders")]
         public IActionResult EditOrders([FromBody]OrdersViewModel ordersViewModel)
         {
             try
@@ -63,7 +63,7 @@ namespace ShoppingV2.Web.Host.Controllers
             }
         }
 
-        [HttpDelete("{DeleteOrder}")]
+        [HttpPost("DeleteOrder")]
         public IActionResult DeleteOrder([FromBody]OrdersViewModel ordersViewModel)
         {
             var order = objectMapper.Map<OrderBL>(ordersViewModel);
@@ -71,7 +71,7 @@ namespace ShoppingV2.Web.Host.Controllers
             return RedirectToAction("AddCart", "AddCart");
         }
 
-        [HttpPost]
+        [HttpPost("Delete")]
         public IActionResult DeleteEntireOrder([FromBody]OrdersViewModel ordersViewModel)
         {
 

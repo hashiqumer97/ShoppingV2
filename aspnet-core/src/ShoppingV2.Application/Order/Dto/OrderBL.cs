@@ -46,6 +46,5 @@ namespace ShoppingV2.BusinessObjects
             Id = orderId;
             return this;
         }
-
     }
 }

@@ -43,14 +43,7 @@ namespace ShoppingV2.Service
         public void Update(int productId, int quantity)
         {
             var productBO = productRepository.Get(productId);
-
             productBO.Quantity = productBO.Quantity + quantity;
-
-            if(productBO.Quantity == 0)
-            {
-                throw new InvalidOperationException("Quantity is over!");
-            }
-
             var product = mapper.Map<ProductDL>(productBO);
             productRepository.Update(product);
         }

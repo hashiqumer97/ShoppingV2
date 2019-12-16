@@ -13,5 +13,16 @@ namespace ShoppingV2.BusinessObjects
         public int Quantity { get; set; }
         public int UnitPrice { get; set; }
 
+        public ProductBL Check(int quantity)
+        {
+            Quantity = quantity;
+            if(quantity <= 0)
+            {
+                throw new InvalidOperationException("Quantity is over!");
+            }
+            return this;
+        }
     }
+
+    
 }

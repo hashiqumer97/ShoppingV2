@@ -50,14 +50,7 @@ namespace ShoppingV2.BusinessObjects
             {
                 throw new InvalidOperationException("Please include the quantity of the selected orderline item!");
             }
-            
-            
             return this;
-        }
-
-        
+        } 
     }
-
-    
-
 }

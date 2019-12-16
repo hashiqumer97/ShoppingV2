@@ -22,15 +22,18 @@ namespace ShoppingV2.Service
         private readonly IRepository<OrderDL> repository;
         private readonly IRepository<OrderItemDL> itemrepository;
         private readonly IUnitOfWork unitOfWork;
+        private readonly IRepository<ProductDL> productRepository;
 
         public OrderService(Abp.ObjectMapping.IObjectMapper objectMapper, IProductService productService,
-            IRepository<OrderDL> repository, IRepository<OrderItemDL> itemrepository, IUnitOfWork unitOfWork)
+            IRepository<OrderDL> repository, IRepository<OrderItemDL> itemrepository, IUnitOfWork unitOfWork,
+            IRepository<ProductDL> productRepository)
         {
             this.objectMapper = objectMapper;
             this.productService = productService;
             this.repository = repository;
             this.itemrepository = itemrepository;
             this.unitOfWork = unitOfWork;
+            this.productRepository = productRepository;
         }
         public List<OrderBL> GetOrders()
         {
@@ -38,12 +41,21 @@ namespace ShoppingV2.Service
         }
         public void CreateOrder(OrderBL order)
         {
-            var ordtemp = order.Create(order.CustomerId, order.OrderLineItems, order.ProductOrderDate);
-            var ord = objectMapper.Map<OrderDL>(ordtemp);
-            repository.Insert(ord);
+           
             foreach (var item in order.OrderLineItems)
             {
-                 productService.Update(item.ProductId, -(item.OrderitemQuantity));
+                var productBO = productRepository.Get(item.ProductId);
+                if (productBO.Quantity <= 0)
+                {
+                    throw new InvalidOperationException("Quantity is over!");
+                }
+                else
+                {
+                    var ordtemp = order.Create(order.CustomerId, order.OrderLineItems, order.ProductOrderDate);
+                    var ord = objectMapper.Map<OrderDL>(ordtemp);
+                    repository.Insert(ord);
+                    productService.Update(item.ProductId, -(item.OrderitemQuantity));
+                }
 
             }
             unitOfWork.SaveChanges();
@@ -60,21 +72,30 @@ namespace ShoppingV2.Service
             foreach (var item in items.OrderLineItems)
             {
                 var tempordline = itemrepository.Get(item.Id);
-                item.Update(item.Id, item.OrderitemDate, item.ProductId, item.OrderId,
-                    item.OrderitemUnitPrice, item.OrderitemQuantity, item.OrderitemProductPrice
-                    , tempordline.OrderitemQuantity, item.IsDelete);
-                tempordline.OrderitemQuantity = item.OrderitemQuantity;
-                tempordline.OrderitemDate = item.OrderitemDate;
-                tempordline.OrderitemProductPrice = item.OrderitemProductPrice;
+                var prodqty = productRepository.Get(item.ProductId);
+                
                 if (item.IsDelete)
                 {
                     itemrepository.Delete(tempordline);
                 }
                 else
                 {
-                    itemrepository.Update(tempordline);
+                    if(prodqty.Quantity <= 0)
+                    {
+                        throw new InvalidOperationException("Quantity is over!");
+                    }
+                    else
+                    {
+                        item.Update(item.Id, item.OrderitemDate, item.ProductId, item.OrderId,
+                    item.OrderitemUnitPrice, item.OrderitemQuantity, item.OrderitemProductPrice
+                    , tempordline.OrderitemQuantity, item.IsDelete);
+                        tempordline.OrderitemQuantity = item.OrderitemQuantity;
+                        tempordline.OrderitemDate = item.OrderitemDate;
+                        tempordline.OrderitemProductPrice = item.OrderitemProductPrice;
+                        itemrepository.Update(tempordline);
+                        productService.Update(item.ProductId, item.DiffQuantity);
+                    }
                 }
-                productService.Update(item.ProductId, item.DiffQuantity);
             }
             unitOfWork.SaveChanges();
         }

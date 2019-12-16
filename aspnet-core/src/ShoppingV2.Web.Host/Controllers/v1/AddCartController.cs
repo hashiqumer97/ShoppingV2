@@ -71,12 +71,10 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             {
                 var order = objectMapper.Map<OrderBL>(ordersViewModel);
                 orderService.CreateOrder(order);
-
                 return RedirectToAction("AddCart", "AddCart");
             }
             catch (Exception ex)
             {
-
                 return BadRequest(ex);
             }
 

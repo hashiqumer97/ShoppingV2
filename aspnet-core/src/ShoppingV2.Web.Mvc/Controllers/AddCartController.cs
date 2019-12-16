@@ -69,7 +69,6 @@ namespace ShoppingV2.Web.Controllers
             {
                 var order = objectMapper.Map<OrderBL>(ordersViewModel);
                 orderService.CreateOrder(order);
-
                 return RedirectToAction("AddCart", "AddCart");
             }
             catch (Exception ex)

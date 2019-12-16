@@ -40,8 +40,22 @@ namespace ShoppingV2.BusinessObjects
             {
                 throw new InvalidOperationException("Oh Sorry! Your Order cannot be updated because the quantity is over the limit!");
             }
+
+            if(orderItemDate == null)
+            {
+                throw new InvalidOperationException("Please include the date!");
+            }
+            
+            if(quantity.ToString() == null)
+            {
+                throw new InvalidOperationException("Please include the quantity of the selected orderline item!");
+            }
+            
+            
             return this;
         }
+
+        
     }
 
     

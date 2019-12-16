@@ -12,5 +12,6 @@ namespace ShoppingV2.BusinessObjects
         public string ProductDescription { get; set; }
         public int Quantity { get; set; }
         public int UnitPrice { get; set; }
+
     }
 }

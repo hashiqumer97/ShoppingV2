@@ -38,13 +38,13 @@ namespace ShoppingV2.Service
         }
         public void CreateOrder(OrderBL order)
         {
-            var ordtemp = order.Create(order.CustomerId, order.OrderLineItems, order.ProductId,
-                order.ProductOrderDate, order.ProductQuantity, order.ProductPrice);
+            var ordtemp = order.Create(order.CustomerId, order.OrderLineItems, order.ProductOrderDate);
             var ord = objectMapper.Map<OrderDL>(ordtemp);
             repository.Insert(ord);
             foreach (var item in order.OrderLineItems)
             {
-                productService.Update(item.ProductId, -(item.OrderitemQuantity));
+                 productService.Update(item.ProductId, -(item.OrderitemQuantity));
+
             }
             unitOfWork.SaveChanges();
         }
@@ -56,6 +56,7 @@ namespace ShoppingV2.Service
         }
         public void ChangeOrder(OrderBL items)
         {
+
             foreach (var item in items.OrderLineItems)
             {
                 var tempordline = itemrepository.Get(item.Id);

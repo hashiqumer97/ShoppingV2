@@ -16,7 +16,7 @@ using ShoppingV2.Web.Models.Product;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace ShoppingV2.Web.Host.Controllers.ver1
+namespace ShoppingV2.Web.Host.Controllers.v1
 {
     [Route("api/v1/[controller]")]
     [ApiController]
@@ -37,7 +37,7 @@ namespace ShoppingV2.Web.Host.Controllers.ver1
         }
 
         [HttpGet("Addcart")]
-        public IActionResult AddCart()
+        public IActionResult ViewCart()
         {
             AddCartViewModel model1 = new AddCartViewModel
             {
@@ -47,15 +47,13 @@ namespace ShoppingV2.Web.Host.Controllers.ver1
             model1.SelectedCustomerName = objectMapper.Map<List<CustomerViewModel>>(customers);
             var products = productService.GetProducts().ToList();
             model1.SelectedProductName = objectMapper.Map<List<ProductViewModel>>(products);
-            // var products = objectMapper.Map<ProductViewModel>(productService.GetProducts().ToList());
-
 
 
             return View(model1);
 
         }
         [HttpGet("Createorders")]
-        public ActionResult CreateOrders()
+        public ActionResult Create()
         {
             var customers = customerService.GetCustomers().ToList();
             var products = productService.GetProducts().ToList();

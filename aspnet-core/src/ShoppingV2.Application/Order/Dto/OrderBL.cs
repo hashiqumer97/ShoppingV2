@@ -9,10 +9,7 @@ namespace ShoppingV2.BusinessObjects
 {
     public class OrderBL:EntityDto<int>
     {
-        public int ProductId { get; set; }
         public string ProductOrderDate { get; set; }
-        public int ProductQuantity { get; set; }
-        public int ProductPrice { get; set; }
         public int CustomerId { get; set; }
 
         public CustomerBL Customers { get; set; }
@@ -20,15 +17,13 @@ namespace ShoppingV2.BusinessObjects
 
         public bool IsDelete { get; set; }
 
-        public OrderBL Create(int customerId, List<OrderItemBL> orderItems, int productId,
-            string productOrderDate, int productQuantity, int productPrice)
+        public OrderBL Create(int customerId, List<OrderItemBL> orderItems,
+            string productOrderDate)
         {
             CustomerId = customerId;
             OrderLineItems = orderItems;
-            ProductId = productId;
             ProductOrderDate = productOrderDate;
-            ProductQuantity = productQuantity;
-            ProductPrice = productPrice;
+
 
             foreach(var item in orderItems)
             {
@@ -36,8 +31,13 @@ namespace ShoppingV2.BusinessObjects
                 {
                     throw new InvalidOperationException("Oh Sorry! Your Order cannot be added because the quantity is over the limit!");
                 }
-            }
 
+                if(item.OrderitemQuantity == 0 || item.OrderitemQuantity.ToString() == null)
+                {
+                    throw new InvalidOperationException("Oh Sorry! Your order cannot be created because the quantity is not included!");
+                }
+               
+            }
             return this;
         }
 

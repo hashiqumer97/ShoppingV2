@@ -44,7 +44,6 @@ namespace ShoppingV2.Web.Controllers
             model1.SelectedCustomerName = objectMapper.Map<List<CustomerViewModel>>(customers);
             var products = productService.GetProducts().ToList();
             model1.SelectedProductName = objectMapper.Map<List<ProductViewModel>>(products);
-           // var products = objectMapper.Map<ProductViewModel>(productService.GetProducts().ToList());
 
             
 

@@ -27,20 +27,14 @@ namespace ShoppingV2.Web.Host.Controllers
         }
         [HttpGet("orders")]
         [AbpMvcAuthorize]
-        public IActionResult Orders()
+        public IActionResult ViewOrders()
         {
             var model = ObjectMapper.Map<IEnumerable<OrdersViewModel>>(orderService.GetOrders());
             return View(model);
         }
-        [HttpGet("Getordersbyid")]
-        public IActionResult GetOrdersById(int id)
-        {
-            var result = orderService.GetOrderById(id);
-            return Json(result);
-        }
         [HttpGet("Orderitems")]
         [AbpMvcAuthorize]
-        public IActionResult OrderItems(int ordid)
+        public IActionResult ViewOrderItems(int ordid)
         {
             var model = orderService.GetOrderById(ordid);
             var obj = ObjectMapper.Map<OrdersViewModel>(model);

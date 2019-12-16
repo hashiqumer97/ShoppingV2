@@ -46,6 +46,11 @@ namespace ShoppingV2.Service
 
             productBO.Quantity = productBO.Quantity + quantity;
 
+            if(productBO.Quantity == 0)
+            {
+                throw new InvalidOperationException("Quantity is over!");
+            }
+
             var product = mapper.Map<ProductDL>(productBO);
             productRepository.Update(product);
         }

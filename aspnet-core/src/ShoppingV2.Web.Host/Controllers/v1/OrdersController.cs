@@ -25,14 +25,14 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             this.orderService = orderService;
             this.objectMapper = objectMapper;
         }
-        [HttpGet("orders")]
+        [HttpGet("ViewOrders")]
         [AbpMvcAuthorize]
         public IActionResult ViewOrders()
         {
-            var model = ObjectMapper.Map<IEnumerable<OrdersViewModel>>(orderService.GetOrders());
+            var model = ObjectMapper.Map<List<OrdersViewModel>>(orderService.GetOrders());
             return View(model);
         }
-        [HttpGet("Orderitems")]
+        [HttpGet("ViewOrderItems")]
         [AbpMvcAuthorize]
         public IActionResult ViewOrderItems(int ordid)
         {
@@ -65,7 +65,7 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             return RedirectToAction("AddCart", "AddCart");
         }
 
-        [HttpPost("Delete")]
+        [HttpPost("DeleteEntireOrder")]
         public IActionResult DeleteEntireOrder([FromBody]OrdersViewModel ordersViewModel)
         {
 
@@ -74,8 +74,5 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             return View(order);
 
         }
-
-
-
     }
 }

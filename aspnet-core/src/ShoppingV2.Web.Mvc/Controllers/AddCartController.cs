@@ -50,17 +50,6 @@ namespace ShoppingV2.Web.Controllers
             return View(model1);
 
         }
-        [HttpGet]
-        public ActionResult CreateOrders()
-        {
-            var customers = customerService.GetCustomers().ToList();
-            var products = productService.GetProducts().ToList();
-
-            ViewBag.listofCustomers = customers;
-            ViewBag.listofProducts = products;
-
-            return View();
-        }
 
         [HttpPost]
         public IActionResult CreateOrder([FromBody]OrdersViewModel ordersViewModel)

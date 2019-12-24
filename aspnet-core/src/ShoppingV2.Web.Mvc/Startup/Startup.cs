@@ -20,6 +20,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Newtonsoft.Json.Serialization;
 using ShoppingV2.ServiceInterface;
 using ShoppingV2.Service;
+using ShoppingV2.BusinessObjects;
 
 namespace ShoppingV2.Web.Startup
 {
@@ -57,6 +58,8 @@ namespace ShoppingV2.Web.Startup
 
             services.AddScoped<IWebResourceManager, WebResourceManager>();
             services.AddTransient<IProductService, ProductService>();
+            services.AddScoped<OrderBL>();
+            services.AddScoped<OrderItemBL>();
             services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<ICustomerService, CustomerService>();
 

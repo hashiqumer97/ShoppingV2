@@ -10,7 +10,7 @@ namespace ShoppingV2.Entities
     public class OrderDL:Entity<int>
     {
         public string ProductOrderDate { get; set; }
-        public virtual List<OrderItemDL> OrderLineItems { get; set; }
+        public List<OrderItemDL> OrderLineItems { get; set; }
         public int CustomerId { get; set; }
 
         [ForeignKey("CustomerId")]

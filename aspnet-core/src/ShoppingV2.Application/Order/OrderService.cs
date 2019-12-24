@@ -24,6 +24,7 @@ namespace ShoppingV2.Service
         private readonly IUnitOfWork unitOfWork;
         private readonly IRepository<ProductDL> productRepository;
 
+
         public OrderService(Abp.ObjectMapping.IObjectMapper objectMapper, IProductService productService,
             IRepository<OrderDL> repository, IRepository<OrderItemDL> itemrepository, IUnitOfWork unitOfWork,
             IRepository<ProductDL> productRepository)
@@ -37,71 +38,57 @@ namespace ShoppingV2.Service
         }
         public List<OrderBL> GetOrders()
         {
-            return objectMapper.Map<List<OrderBL>>(repository.GetAll());
+            var orders = repository.GetAll().ToList();
+            return objectMapper.Map<List<OrderBL>>(orders);
         }
         public void CreateOrder(OrderBL order)
         {
-           
             foreach (var item in order.OrderLineItems)
             {
+                var newOrder = new OrderBL(order.CustomerId, order.OrderLineItems, order.ProductOrderDate);
                 var productBO = productRepository.Get(item.ProductId);
                 if (productBO.Quantity <= 0)
-                {
                     throw new InvalidOperationException("Quantity is over!");
-                }
-                else
-                {
-                    var ordtemp = order.Create(order.CustomerId, order.OrderLineItems, order.ProductOrderDate);
-                    var ord = objectMapper.Map<OrderDL>(ordtemp);
-                    repository.Insert(ord);
-                    productService.Update(item.ProductId, -(item.OrderitemQuantity));
-                }
-
+                var ord = objectMapper.Map<OrderDL>(newOrder);
+                repository.Insert(ord);
             }
             unitOfWork.SaveChanges();
         }
         public void DeleteEntireOrder(OrderBL orders)
         {
-            var orddelete = orders.Delete(orders.Id);
+            var orddelete = new OrderBL(orders.Id);
             var order = objectMapper.Map<OrderDL>(orddelete);
             repository.Delete(order);
         }
         public void ChangeOrder(OrderBL items)
         {
-
             foreach (var item in items.OrderLineItems)
             {
-                var tempordline = itemrepository.Get(item.Id);
+                var tempordline = new OrderItemBL(item.Id, item.OrderitemDate, item.ProductId, item.OrderId, item.OrderitemUnitPrice,
+                        item.OrderitemQuantity, item.OrderitemProductPrice);
+                var deletetempordline = new OrderItemBL(item.Id);
                 var prodqty = productRepository.Get(item.ProductId);
-                
                 if (item.IsDelete)
                 {
-                    itemrepository.Delete(tempordline);
+                    itemrepository.Delete(objectMapper.Map<OrderItemDL>(deletetempordline));
                 }
                 else
                 {
-                    if(prodqty.Quantity <= 0)
-                    {
+                    if (prodqty.Quantity <= 0)
                         throw new InvalidOperationException("Quantity is over!");
-                    }
-                    else
-                    {
-                        item.Update(item.Id, item.OrderitemDate, item.ProductId, item.OrderId,
-                    item.OrderitemUnitPrice, item.OrderitemQuantity, item.OrderitemProductPrice
-                    , tempordline.OrderitemQuantity, item.IsDelete);
-                        tempordline.OrderitemQuantity = item.OrderitemQuantity;
-                        tempordline.OrderitemDate = item.OrderitemDate;
-                        tempordline.OrderitemProductPrice = item.OrderitemProductPrice;
-                        itemrepository.Update(tempordline);
-                        productService.Update(item.ProductId, item.DiffQuantity);
-                    }
+                    tempordline.OrderitemDate = item.OrderitemDate;
+                    tempordline.OrderitemQuantity = item.OrderitemQuantity;
+                    tempordline.OrderitemProductPrice = item.OrderitemProductPrice;
+                    itemrepository.Update(objectMapper.Map<OrderItemDL>(tempordline));
+                    productService.Update(item.ProductId, item.DiffQuantity);
                 }
+
             }
             unitOfWork.SaveChanges();
         }
         public OrderBL GetOrderById(int id)
         {
-            var getord = repository.GetAllIncluding().Include(i => i.OrderLineItems).First(o => o.Id == id);
+            var getord = repository.GetAllIncluding().Include(i => i.OrderLineItems).Include(c => c.Customers).First(o => o.Id == id);
             return objectMapper.Map<OrderBL>(getord);
         }
     }

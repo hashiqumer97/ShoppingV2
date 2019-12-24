@@ -10,6 +10,10 @@ namespace ShoppingV2.BusinessObjects
 {
     public class OrderItemBL: EntityDto<int>
     {
+        public OrderItemBL()
+        {
+
+        }
         public string OrderitemDate { get; set; }
         public int ProductId { get; set; }
         [ForeignKey("ProductId")]
@@ -18,39 +22,41 @@ namespace ShoppingV2.BusinessObjects
         [ForeignKey("OrderId")]
         public OrderBL Orders { get; set; }
         public int OrderitemUnitPrice { get; set; }
-        public int OrderitemQuantity { get; set; }
+        private int _OrderitemQuantity;
+        public int OrderitemQuantity 
+        {
+            get
+            {
+                return _OrderitemQuantity;
+            }
+            set
+            {
+                if (_OrderitemQuantity >= 100)
+                    throw new InvalidOperationException("Oh Sorry! Your quantity level had been exceeded!");
+
+                _OrderitemQuantity = value;
+            }
+
+        }
         public int OrderitemProductPrice { get; set; }
         public bool IsDelete { get; set; }
         public int DiffQuantity { get; set; }
 
-        public OrderItemBL Update(int orditemid, string orderItemDate, int productId, int orderId,
-        int unitPrice, int quantity, int productPrice, int updatedQuantity, bool isdelete)
+        public OrderItemBL(int orderitemid, string orderitemdate, int productid, int orderid, int unitprice,
+            int quantity, int productprice)
         {
-            Id = orditemid;
-            OrderitemDate = orderItemDate;
-            ProductId = productId;
-            OrderId = orderId;
-            OrderitemUnitPrice = unitPrice;
+            Id = orderitemid;
+            OrderitemDate = orderitemdate;
+            ProductId = productid;
+            OrderId = orderid;
+            OrderitemUnitPrice = unitprice;
             OrderitemQuantity = quantity;
-            OrderitemProductPrice = productPrice;
-            DiffQuantity = (updatedQuantity - quantity);
-            IsDelete = isdelete;
+            OrderitemProductPrice = productprice;
+        }
 
-            if(quantity >= 100)
-            {
-                throw new InvalidOperationException("Oh Sorry! Your Order cannot be updated because the quantity is over the limit!");
-            }
-
-            if(orderItemDate == null)
-            {
-                throw new InvalidOperationException("Please include the date!");
-            }
-            
-            if(quantity.ToString() == null)
-            {
-                throw new InvalidOperationException("Please include the quantity of the selected orderline item!");
-            }
-            return this;
-        } 
+        public OrderItemBL(int orderitemid)
+        {
+            Id = orderitemid;
+        }
     }
 }

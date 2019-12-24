@@ -36,7 +36,7 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             this.objectMapper = objectMapper;
         }
 
-        [HttpGet("Addcart")]
+        [HttpGet("ViewCart")]
         public IActionResult ViewCart()
         {
             AddCartViewModel model1 = new AddCartViewModel
@@ -51,17 +51,6 @@ namespace ShoppingV2.Web.Host.Controllers.v1
 
             return View(model1);
 
-        }
-        [HttpGet("Createorders")]
-        public ActionResult Create()
-        {
-            var customers = customerService.GetCustomers().ToList();
-            var products = productService.GetProducts().ToList();
-
-            ViewBag.listofCustomers = customers;
-            ViewBag.listofProducts = products;
-
-            return View();
         }
 
         [HttpPost]

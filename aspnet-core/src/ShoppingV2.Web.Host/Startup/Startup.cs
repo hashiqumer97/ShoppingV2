@@ -20,6 +20,7 @@ using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Serialization;
 using ShoppingV2.ServiceInterface;
 using ShoppingV2.Service;
+using ShoppingV2.BusinessObjects;
 
 namespace ShoppingV2.Web.Host.Startup
 {
@@ -58,6 +59,8 @@ namespace ShoppingV2.Web.Host.Startup
 
             services.AddSignalR();
             services.AddTransient<IOrderService, OrderService>();
+            services.AddScoped<OrderBL>();
+            services.AddScoped<OrderItemBL>();
             services.AddTransient<IProductService,ProductService >();
             services.AddTransient<ICustomerService, CustomerService>();
 

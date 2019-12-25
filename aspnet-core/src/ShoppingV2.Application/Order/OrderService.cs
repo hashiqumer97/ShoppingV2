@@ -68,29 +68,24 @@ namespace ShoppingV2.Service
                         item.OrderitemQuantity, item.OrderitemProductPrice);
                 var deletetempordline = new OrderItemBL(item.Id);
                 var prodqty = productRepository.Get(item.ProductId);
-                if (item.IsDelete)
-                {
+                if (item.IsDelete == true)
                     itemrepository.Delete(objectMapper.Map<OrderItemDL>(deletetempordline));
-                }
-                else
-                {
-                    if (prodqty.Quantity <= 0)
-                        throw new InvalidOperationException("Quantity is over!");
+                if (prodqty.Quantity <= 0)
+                    throw new InvalidOperationException("Quantity is over!");
+                if (item.IsDelete == false)
                     tempordline.OrderitemDate = item.OrderitemDate;
                     tempordline.OrderitemQuantity = item.OrderitemQuantity;
                     tempordline.OrderitemProductPrice = item.OrderitemProductPrice;
                     itemrepository.Update(objectMapper.Map<OrderItemDL>(tempordline));
                     productService.Update(item.ProductId, item.DiffQuantity);
-                }
-
             }
-            unitOfWork.SaveChanges();
+        unitOfWork.SaveChanges();
         }
-        public OrderBL GetOrderById(int id)
-        {
-            var getord = repository.GetAllIncluding().Include(i => i.OrderLineItems).Include(c => c.Customers).First(o => o.Id == id);
-            return objectMapper.Map<OrderBL>(getord);
-        }
+    public OrderBL GetOrderById(int id)
+    {
+        var getord = repository.GetAllIncluding().Include(i => i.OrderLineItems).Include(c => c.Customers).First(o => o.Id == id);
+        return objectMapper.Map<OrderBL>(getord);
     }
+}
 }
 

@@ -61,6 +61,7 @@ namespace ShoppingV2.Web.Host.Startup
             services.AddTransient<IOrderService, OrderService>();
             services.AddScoped<OrderBL>();
             services.AddScoped<OrderItemBL>();
+            services.AddScoped<ProductBL>();
             services.AddTransient<IProductService,ProductService >();
             services.AddTransient<ICustomerService, CustomerService>();
 

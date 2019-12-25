@@ -24954,3 +24954,1263 @@ DEBUG 2019-12-24 22:56:50,019 [5    ] HttpRequestEntityChangeSetReasonProvider -
 DEBUG 2019-12-24 22:56:55,036 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
 DEBUG 2019-12-24 22:57:00,075 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
 DEBUG 2019-12-24 22:57:05,121 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:34:03,820 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 16:34:04,381 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 16:34:04,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,469 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:04,495 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 16:34:04,728 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:34:04,728 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:34:04,728 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:34:04,728 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:34:06,723 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:34:15,640 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 16:34:15,839 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 16:34:15,884 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 16:34:15,903 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 16:34:15,925 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 16:34:17,565 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 16:34:18,477 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 16:34:18,673 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 16:34:18,673 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 16:34:18,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 16:34:18,695 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 16:34:18,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 16:34:18,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 16:34:18,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 16:34:18,697 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 16:34:18,697 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 16:34:26,976 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:34:28,156 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:34:28,519 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:34:29,134 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:34:29,280 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:34:30,723 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 16:34:30,967 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 16:34:31,234 [4    ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18158513699168453425", Request ID "80000332-0000-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 16:34:31,281 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 310.50370000000004ms 500 
+DEBUG 2019-12-25 16:34:32,234 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:34:37,318 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:34:43,529 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:34:48,613 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:34:53,680 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:34:58,755 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:03,824 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:08,866 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:13,881 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:18,900 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:24,001 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:29,048 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:34,077 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:39,197 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:44,223 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:49,245 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:54,279 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:35:59,533 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:36:04,612 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:36:09,725 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:36:14,789 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:36:19,859 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:36:24,929 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:36:26,061 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 16:36:26,091 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 16:36:26,121 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 16:36:26,152 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.2068ms 204 
+INFO  2019-12-25 16:36:27,838 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 194
+INFO  2019-12-25 16:36:27,904 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 16:36:27,916 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 16:36:29,602 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 16:36:34,983 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:36:40,714 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:36:48,359 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:36:53,558 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:36:53,607 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 16:37:12,230 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:37:17,621 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:37:21,819 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-25 16:37:22,406 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host) in 28699.363500000003ms
+INFO  2019-12-25 16:37:22,431 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+INFO  2019-12-25 16:37:22,464 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54645.7925ms 400 application/json; charset=utf-8
+DEBUG 2019-12-25 16:37:22,650 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:37:27,673 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:37:32,690 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:37:34,266 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 16:37:34,279 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 16:37:34,289 [15   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 16:37:34,306 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.1052ms 204 
+INFO  2019-12-25 16:37:35,582 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 16:37:35,603 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 16:37:35,629 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 16:37:35,736 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+INFO  2019-12-25 16:37:35,789 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 16:37:39,606 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:37:50,100 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:37:55,436 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:37:55,470 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-25 16:37:55,485 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host) in 19682.8321ms
+INFO  2019-12-25 16:37:55,492 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+INFO  2019-12-25 16:37:55,502 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19976.208300000002ms 400 application/json; charset=utf-8
+DEBUG 2019-12-25 16:38:00,560 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:38:05,589 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:38:10,598 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:38:15,606 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:38:20,628 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:38:25,658 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:38:30,672 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:40:38,242 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 16:40:38,863 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 16:40:39,011 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,021 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,024 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,026 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,039 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:39,058 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 16:40:39,652 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:40:39,652 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:40:39,652 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:40:39,652 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:40:43,177 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:40:52,872 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 16:40:53,108 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 16:40:53,163 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 16:40:53,191 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 16:40:53,208 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 16:40:54,737 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 16:40:56,781 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 16:40:57,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 16:40:57,159 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 16:40:57,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 16:40:57,187 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 16:40:57,188 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 16:40:57,188 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 16:40:57,189 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 16:40:57,189 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 16:40:57,190 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 16:41:07,069 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:07,943 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:08,138 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:08,838 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:09,029 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:41:11,498 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 16:41:11,847 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+DEBUG 2019-12-25 16:41:12,263 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+ERROR 2019-12-25 16:41:12,284 [4    ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17654110540902957148", Request ID "8000005d-0000-f500-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 16:41:12,355 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 521.6715ms 500 
+DEBUG 2019-12-25 16:41:17,388 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:22,447 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:27,484 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:32,547 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:37,612 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:42,681 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:47,765 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:52,805 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:41:57,838 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:42:02,873 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:42:07,954 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:42:12,997 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:42:18,034 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:42:23,106 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:42:28,175 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:42:33,208 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:42:34,670 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 16:42:34,760 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 16:42:34,806 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 16:42:34,850 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 185.0026ms 204 
+INFO  2019-12-25 16:42:36,141 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 16:42:36,195 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 16:42:36,209 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 16:42:36,624 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 16:42:39,349 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:42:45,831 [16   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:42:51,486 [16   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:42:51,531 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 16:42:57,544 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:43:20,703 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:43:21,632 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-25 16:43:21,739 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host) in 30195.4729ms
+INFO  2019-12-25 16:43:21,747 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+INFO  2019-12-25 16:43:21,768 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45701.3465ms 400 application/json; charset=utf-8
+DEBUG 2019-12-25 16:43:25,747 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:43:30,780 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:43:33,845 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 16:43:33,861 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 16:43:33,872 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 16:43:33,892 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.888200000000005ms 204 
+INFO  2019-12-25 16:43:35,115 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 16:43:35,172 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 16:43:35,200 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 16:43:35,252 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+INFO  2019-12-25 16:43:35,281 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 16:43:39,676 [18   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:44:35,062 [16   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:50:14,084 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 16:50:14,983 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 16:50:15,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,130 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,145 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:15,180 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 16:50:15,551 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:50:15,553 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:50:15,553 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:50:15,553 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:50:17,579 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:50:32,729 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 16:50:32,986 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 16:50:33,041 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 16:50:33,072 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 16:50:33,113 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 16:50:36,463 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 16:50:38,122 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 16:50:38,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 16:50:38,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 16:50:38,869 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 16:50:38,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 16:50:38,884 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 16:50:38,884 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 16:50:38,885 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 16:50:38,886 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 16:50:38,886 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 16:50:54,225 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:50:55,279 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:50:55,492 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:50:56,175 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:50:56,374 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:50:59,529 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:51:00,559 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 16:51:01,144 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 16:51:01,881 [11   ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17870283335901643104", Request ID "80000161-0003-f800-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 16:51:01,992 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 882.9523ms 500 
+DEBUG 2019-12-25 16:51:04,639 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:51:09,694 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:51:14,750 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:51:19,815 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:51:24,877 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:51:29,963 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:51:34,996 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:51:40,198 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:51:45,313 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:51:50,349 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:51:55,370 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:52:00,391 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:52:05,435 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:52:10,512 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:52:15,550 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:52:20,562 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:52:25,592 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:52:30,675 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:54:32,017 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 16:54:32,256 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 16:54:32,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,342 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:32,352 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 16:54:32,532 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:54:32,532 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:54:32,532 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:54:32,532 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:54:33,590 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:54:40,516 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 16:54:40,802 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 16:54:40,886 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 16:54:40,934 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 16:54:40,973 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 16:54:43,294 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 16:54:44,193 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 16:54:44,406 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 16:54:44,406 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 16:54:44,428 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 16:54:44,430 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 16:54:44,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 16:54:44,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 16:54:44,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 16:54:44,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 16:54:44,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 16:54:51,966 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:54:52,597 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:54:52,724 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:54:53,081 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:54:53,195 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:54:55,103 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 16:54:55,627 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 16:54:56,070 [6    ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17870283335901643106", Request ID "80000163-0003-f800-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 16:54:56,168 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 577.7836ms 500 
+DEBUG 2019-12-25 16:54:57,102 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:02,177 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:07,241 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:12,284 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:17,308 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:22,415 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:27,594 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:32,644 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:37,683 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:42,761 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:47,807 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:52,840 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:55:57,892 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:56:01,249 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 16:56:01,282 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 16:56:01,287 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 16:56:01,306 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 56.303200000000004ms 204 
+DEBUG 2019-12-25 16:56:02,967 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:56:03,262 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 16:56:03,396 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 16:56:03,485 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 16:56:05,662 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 16:56:08,411 [24   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:56:15,774 [26   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:56:22,212 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 16:56:25,200 [26   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:56:33,658 [26   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:56:41,833 [23   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:58:47,289 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 16:58:48,204 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 16:58:48,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,375 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,388 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:58:48,415 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 16:58:49,119 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:58:49,120 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:58:49,120 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:58:49,120 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 16:58:52,543 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 16:59:05,306 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 16:59:05,749 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 16:59:05,847 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 16:59:05,887 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 16:59:05,924 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 16:59:08,095 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 16:59:08,952 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 16:59:09,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 16:59:09,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 16:59:09,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 16:59:09,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 16:59:09,259 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 16:59:09,259 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 16:59:09,260 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 16:59:09,260 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 16:59:09,262 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 16:59:24,165 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:59:25,484 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:59:25,700 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:59:26,347 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:59:26,503 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:59:29,413 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 16:59:30,377 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 16:59:30,976 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 16:59:31,820 [9    ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18158513703463420018", Request ID "80000073-0001-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 16:59:32,153 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1101.0918000000001ms 500 
+DEBUG 2019-12-25 16:59:34,495 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:59:39,552 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:59:44,625 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:59:49,699 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:59:54,859 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 16:59:59,925 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:05,027 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:10,067 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:15,102 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:20,145 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:25,195 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:30,305 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:35,353 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:40,443 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:45,472 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:50,488 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:00:55,499 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:00,576 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:05,632 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:10,672 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:15,691 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:20,705 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:25,740 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:30,757 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:35,769 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:40,811 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:45,831 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:50,866 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:01:55,875 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:02:00,893 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:02:05,992 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:02:11,025 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:02:16,046 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:02:21,071 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:02:26,165 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:02:31,236 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:02:36,249 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:02:41,269 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:02:43,565 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 17:02:43,615 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:02:43,627 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:02:43,655 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 118.7278ms 204 
+INFO  2019-12-25 17:02:46,383 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 17:02:46,543 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:02:46,617 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+DEBUG 2019-12-25 17:02:46,643 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:02:48,765 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 17:02:52,059 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:02:59,627 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:03:06,358 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:03:08,689 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 17:03:12,057 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:03:21,724 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:03:29,390 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:05:52,497 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 17:05:54,226 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 17:05:54,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,375 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,378 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:05:54,420 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 17:05:55,050 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:05:55,052 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:05:55,052 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:05:55,052 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:05:57,299 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:06:07,470 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 17:06:07,830 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 17:06:07,911 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 17:06:07,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 17:06:08,029 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 17:06:11,764 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 17:06:12,745 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 17:06:13,058 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 17:06:13,059 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 17:06:13,099 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 17:06:13,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 17:06:13,102 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 17:06:13,102 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 17:06:13,103 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 17:06:13,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 17:06:13,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 17:06:28,527 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:06:29,944 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:06:30,298 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:06:30,969 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:06:31,195 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:06:33,753 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:06:35,348 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 17:06:35,964 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 17:06:36,644 [12   ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17726168143530819850", Request ID "8000010b-0002-f600-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 17:06:36,729 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 800.6944000000001ms 500 
+DEBUG 2019-12-25 17:06:38,944 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:06:44,049 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:06:49,078 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:06:54,172 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:06:59,256 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:07:04,300 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:07:09,385 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:07:14,524 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:07:19,578 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:07:24,636 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:07:29,845 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:07:31,370 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 17:07:31,465 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:07:31,512 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:07:31,576 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 240.16660000000002ms 204 
+INFO  2019-12-25 17:07:32,551 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 17:07:32,569 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:07:32,610 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:07:34,090 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 17:07:38,212 [22   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:07:44,613 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:07:51,795 [22   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:07:52,899 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 17:07:59,341 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:08:09,101 [22   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:11:30,570 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 17:11:33,552 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 17:11:33,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,678 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,705 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:11:33,758 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 17:11:34,377 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:11:34,378 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:11:34,379 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:11:34,379 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:11:37,088 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:56,617 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 17:12:57,449 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 17:12:57,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,616 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:12:57,642 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 17:12:58,168 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:12:58,168 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:12:58,168 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:12:58,168 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:13:04,779 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:13:19,274 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 17:13:19,543 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 17:13:19,610 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 17:13:19,651 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 17:13:19,689 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 17:13:23,602 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 17:13:24,967 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 17:13:25,309 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 17:13:25,309 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 17:13:25,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 17:13:25,347 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 17:13:25,348 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 17:13:25,348 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 17:13:25,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 17:13:25,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 17:13:25,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 17:13:40,388 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:13:41,775 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:13:42,016 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:13:42,579 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:13:42,762 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:13:45,683 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:13:46,234 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 17:13:46,865 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 17:13:47,436 [10   ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18302628900129210789", Request ID "800001a6-0003-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 17:13:47,587 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 688.3907ms 500 
+DEBUG 2019-12-25 17:13:50,840 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:13:55,982 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:01,089 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:06,280 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:11,317 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:16,363 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:21,415 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:26,466 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:31,490 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:36,522 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:41,546 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:46,577 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:51,652 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:14:56,696 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:15:01,795 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:15:06,998 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:15:12,238 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:15:14,880 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 17:15:14,937 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:15:14,968 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:15:14,997 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 219.8983ms 204 
+INFO  2019-12-25 17:15:16,060 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 17:15:16,092 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:15:16,128 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:15:16,896 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 17:15:21,539 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:15:28,390 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:15:34,202 [18   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:15:38,083 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 17:15:41,094 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:15:46,544 [18   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:18:32,845 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 17:18:33,428 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 17:18:33,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,556 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,557 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,559 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,562 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:33,580 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 17:18:34,036 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:18:34,036 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:18:34,036 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:18:34,036 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:18:36,110 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:18:44,165 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 17:18:44,454 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 17:18:44,512 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 17:18:44,543 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 17:18:44,580 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 17:18:48,090 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 17:18:48,942 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 17:18:49,177 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 17:18:49,178 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 17:18:49,204 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 17:18:49,206 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 17:18:49,207 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 17:18:49,207 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 17:18:49,208 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 17:18:49,208 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 17:18:49,208 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 17:19:02,814 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:04,042 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:04,352 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:04,989 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:05,117 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:19:06,651 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 17:19:07,056 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 17:19:07,716 [11   ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18230571301796315581", Request ID "800001be-0002-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 17:19:07,830 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 756.6422ms 500 
+DEBUG 2019-12-25 17:19:08,109 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:13,170 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:18,223 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:23,279 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:28,361 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:33,426 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:38,478 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:43,545 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:48,723 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:53,862 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:19:58,944 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:20:03,995 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:20:09,120 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:20:14,232 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:20:19,318 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:20:24,405 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:20:29,476 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:20:33,148 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 17:20:33,206 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:20:33,264 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:20:33,364 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 173.0557ms 204 
+DEBUG 2019-12-25 17:20:34,553 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:20:34,631 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 17:20:34,660 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:20:34,735 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:20:36,412 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 17:20:43,064 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:20:50,473 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:20:56,905 [16   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:20:58,121 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 17:21:02,050 [16   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:21:10,130 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:21:19,528 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:26:23,809 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 17:26:25,404 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 17:26:25,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:25,620 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 17:26:26,277 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:26:26,282 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:26:26,282 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:26:26,282 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:26:30,534 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:26:43,652 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 17:26:43,944 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 17:26:44,010 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 17:26:44,048 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 17:26:44,076 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 17:26:45,780 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 17:26:47,094 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 17:26:47,523 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 17:26:47,523 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 17:26:47,561 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 17:26:47,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 17:26:47,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 17:26:47,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 17:26:47,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 17:26:47,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 17:26:47,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 17:27:01,644 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:03,257 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:03,564 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:04,499 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:04,754 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:06,965 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:27:07,836 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 17:27:08,422 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 17:27:09,110 [9    ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17437937767379107960", Request ID "80000079-0002-f200-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 17:27:09,292 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 818.9715ms 500 
+DEBUG 2019-12-25 17:27:12,177 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:17,253 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:22,333 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:27,383 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:32,471 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:37,521 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:42,581 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:47,887 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:52,965 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:27:58,004 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:28:03,070 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:28:08,117 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:28:10,700 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 17:28:10,733 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:28:10,746 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:28:10,774 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 67.8075ms 204 
+INFO  2019-12-25 17:28:12,348 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 17:28:12,376 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:28:12,391 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:28:13,112 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 17:28:13,209 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:28:18,906 [22   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:28:26,145 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:28:33,059 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 17:28:36,288 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:28:42,444 [21   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:35:49,589 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 17:35:50,644 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 17:35:50,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,767 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,785 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:35:50,819 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 17:35:51,171 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:35:51,172 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:35:51,172 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:35:51,172 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:35:53,983 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:36:07,672 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 17:36:07,936 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 17:36:08,015 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 17:36:08,061 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 17:36:08,094 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 17:36:11,333 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 17:36:12,967 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 17:36:13,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 17:36:13,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 17:36:13,309 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 17:36:13,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 17:36:13,318 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 17:36:13,319 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 17:36:13,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 17:36:13,321 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 17:36:13,321 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 17:36:27,683 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:36:29,246 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:36:29,527 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:36:30,335 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:36:30,517 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:36:33,131 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:36:34,303 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 17:36:34,966 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 17:36:35,964 [12   ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17870283335901643113", Request ID "8000016a-0003-f800-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 17:36:36,079 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1186.1727ms 500 
+DEBUG 2019-12-25 17:36:38,230 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:36:43,285 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:36:48,375 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:36:53,431 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:36:58,479 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:37:03,655 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:37:08,717 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:37:13,767 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:37:18,792 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:37:23,973 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:37:29,018 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:37:34,048 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:37:39,145 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:37:44,293 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:37:49,395 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:37:54,118 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 17:37:54,154 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:37:54,166 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:37:54,185 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 88.4401ms 204 
+DEBUG 2019-12-25 17:37:54,424 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:37:55,666 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 17:37:55,707 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:37:55,733 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:37:57,114 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 17:38:01,070 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:38:08,092 [20   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:38:14,196 [23   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:38:14,929 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+INFO  2019-12-25 17:38:18,433 [23   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-25 17:38:18,555 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host) in 3605.8736000000004ms
+INFO  2019-12-25 17:38:18,564 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+INFO  2019-12-25 17:38:18,588 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22933.179ms 400 application/json; charset=utf-8
+DEBUG 2019-12-25 17:38:19,242 [23   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:38:24,249 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:38:29,292 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:38:34,322 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:38:39,353 [23   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:38:44,383 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:38:49,549 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:38:54,616 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:38:55,713 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 17:38:55,733 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:38:55,745 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:38:55,764 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 65.46390000000001ms 204 
+INFO  2019-12-25 17:38:57,112 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 17:38:57,180 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:38:57,200 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:38:57,313 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+INFO  2019-12-25 17:38:57,378 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+INFO  2019-12-25 17:38:57,778 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-25 17:38:57,856 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host) in 405.0276ms
+INFO  2019-12-25 17:38:57,945 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+INFO  2019-12-25 17:38:58,008 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 882.1804000000001ms 400 application/json; charset=utf-8
+DEBUG 2019-12-25 17:38:59,664 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:39:04,690 [23   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:39:09,714 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:39:14,753 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:39:19,777 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:39:24,798 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:39:29,817 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:39:34,825 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:39:39,846 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:39:39,914 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 17:39:39,941 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:39:39,959 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:39:39,976 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 94.0539ms 204 
+INFO  2019-12-25 17:39:40,886 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 17:39:40,911 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:39:40,925 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:39:40,945 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+INFO  2019-12-25 17:39:40,999 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 17:39:52,955 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:41:53,559 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 17:41:54,424 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 17:41:54,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:41:54,630 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 17:41:54,988 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:41:54,988 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:41:54,988 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:41:54,988 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:41:57,154 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:42:09,590 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 17:42:09,898 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 17:42:09,968 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 17:42:10,005 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 17:42:10,046 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 17:42:11,534 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 17:42:12,289 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 17:42:12,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 17:42:12,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 17:42:12,582 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 17:42:12,583 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 17:42:12,590 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 17:42:12,591 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 17:42:12,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 17:42:12,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 17:42:12,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 17:42:24,781 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:42:26,075 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:42:26,251 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:42:26,828 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:42:26,965 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:42:30,123 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:42:30,183 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 17:42:31,580 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 17:42:33,028 [13   ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17293822579303251974", Request ID "80000007-0002-f000-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 17:42:33,262 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1756.1606000000002ms 500 
+DEBUG 2019-12-25 17:42:35,241 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:42:40,280 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:42:45,417 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:42:50,471 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:42:55,512 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:00,554 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:05,585 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:10,612 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:15,647 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:20,672 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:25,697 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:30,781 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:35,922 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:41,040 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:46,092 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:43:51,124 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:43:54,238 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 17:43:54,277 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:43:54,292 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:43:54,322 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 99.1661ms 204 
+INFO  2019-12-25 17:43:55,706 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 17:43:55,775 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:43:55,794 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+DEBUG 2019-12-25 17:43:56,469 [25   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:43:57,048 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 17:44:01,603 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:44:09,174 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:44:16,678 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:44:17,801 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 17:44:21,725 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:44:37,141 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:49:26,262 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-25 17:49:27,480 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-12-25 17:49:27,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Host.Startup.ShoppingV2WebHostModule, ShoppingV2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,624 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,628 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,629 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,640 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:27,654 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-12-25 17:49:28,288 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:49:28,288 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:49:28,288 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:49:28,288 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-25 17:49:32,687 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-25 17:49:42,287 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-25 17:49:42,644 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-25 17:49:42,741 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-25 17:49:42,804 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2019-12-25 17:49:42,846 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-25 17:49:44,689 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-25 17:49:45,703 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-25 17:49:45,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-12-25 17:49:45,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-25 17:49:46,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2019-12-25 17:49:46,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2019-12-25 17:49:46,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-25 17:49:46,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-25 17:49:46,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2019-12-25 17:49:46,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-25 17:49:46,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-25 17:49:59,890 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:01,233 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:01,470 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:02,495 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:02,682 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:05,208 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:50:06,098 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-25 17:50:06,654 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-12-25 17:50:07,293 [6    ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18158513703463420026", Request ID "8000007b-0001-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ShoppingV2.Web.Host.Controllers.HomeController.Index (ShoppingV2.Web.Host)
+ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2019-12-25 17:50:07,435 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 775.7408ms 500 
+DEBUG 2019-12-25 17:50:10,328 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:15,400 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:20,468 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:25,550 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:30,605 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:35,650 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:40,662 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:45,731 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:50,799 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:50:55,862 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:51:00,909 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:51:05,965 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:51:11,001 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:51:16,165 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:51:21,283 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:51:26,310 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:51:29,081 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/v1/Orders/EditOrders  
+INFO  2019-12-25 17:51:29,144 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:51:29,169 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+INFO  2019-12-25 17:51:29,210 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 148.1756ms 204 
+INFO  2019-12-25 17:51:30,580 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/v1/Orders/EditOrders application/json 193
+INFO  2019-12-25 17:51:30,697 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-12-25 17:51:30,745 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:62114 does not have permission to access the resource.
+DEBUG 2019-12-25 17:51:31,582 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:51:32,760 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+DEBUG 2019-12-25 17:51:37,522 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:51:47,420 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:51:50,467 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditOrders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditOrders(ShoppingV2.Web.Models.Order.OrdersViewModel) on controller ShoppingV2.Web.Host.Controllers.v1.OrdersController (ShoppingV2.Web.Host).
+DEBUG 2019-12-25 17:51:53,245 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:52:00,166 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:52:05,458 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:52:13,428 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-25 17:52:14,631 [7    ] ft.AspNetCore.Mvc.RedirectToActionResult - Executing RedirectResult, redirecting to /AddCart/AddCart.
+INFO  2019-12-25 17:52:14,662 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host) in 24176.0523ms
+INFO  2019-12-25 17:52:14,669 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Host.Controllers.v1.OrdersController.EditOrders (ShoppingV2.Web.Host)'
+INFO  2019-12-25 17:52:14,696 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44164.9623ms 0 
+DEBUG 2019-12-25 17:52:18,471 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:52:23,506 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-25 17:52:28,529 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null

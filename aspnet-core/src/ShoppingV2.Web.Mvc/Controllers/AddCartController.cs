@@ -23,7 +23,6 @@ namespace ShoppingV2.Web.Controllers
         private readonly ICustomerService customerService;
         private readonly IOrderService orderService;
         private readonly IObjectMapper objectMapper;
-
         public AddCartController(IProductService productService
             , ICustomerService customerService, IOrderService orderService, IObjectMapper objectMapper)
         {
@@ -32,7 +31,6 @@ namespace ShoppingV2.Web.Controllers
             this.orderService = orderService;
             this.objectMapper = objectMapper;
         }
-
         [HttpGet]
         public IActionResult AddCart()
         {
@@ -44,13 +42,8 @@ namespace ShoppingV2.Web.Controllers
             model1.SelectedCustomerName = objectMapper.Map<List<CustomerViewModel>>(customers);
             var products = productService.GetProducts().ToList();
             model1.SelectedProductName = objectMapper.Map<List<ProductViewModel>>(products);
-
-            
-
             return View(model1);
-
         }
-
         [HttpPost]
         public IActionResult CreateOrder([FromBody]OrdersViewModel ordersViewModel)
         {
@@ -62,10 +55,8 @@ namespace ShoppingV2.Web.Controllers
             }
             catch (Exception ex)
             {
-
                 return BadRequest(ex);
             }
-            
         }
     }
 }

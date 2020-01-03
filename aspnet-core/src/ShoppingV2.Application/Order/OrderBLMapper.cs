@@ -14,9 +14,6 @@ namespace ShoppingV2.BusinessObjects.BusinessObjectsMapper
             CreateMap<OrderBL, OrderDL>().ReverseMap();
             CreateMap<OrderItemBL, OrderItemDL>().ReverseMap();
             CreateMap<CustomerDL, CustomerBL>().ReverseMap();
-            //CreateMap<OrderBL, OrderItemBL>().ReverseMap();
-            //CreateMap<OrderDL, OrderItemDL>().ReverseMap();
-            //CreateMap<OrderItemDL, OrderBL>().ReverseMap();
         }
     }
 }

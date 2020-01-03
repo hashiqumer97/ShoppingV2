@@ -34,7 +34,6 @@ namespace ShoppingV2.Service
                 throw ex;
             }
         }
-
         public List<CustomerBL> GetCustomers()
         {
             try

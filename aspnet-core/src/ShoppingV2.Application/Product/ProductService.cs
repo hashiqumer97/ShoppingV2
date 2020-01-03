@@ -20,13 +20,10 @@ namespace ShoppingV2.Service
             this.mapper = mapper;
             this.productRepository = productRepository;
         }
-
         public List<ProductBL> GetProducts()
         {
             return mapper.Map<List<ProductBL>>(productRepository.GetAll());
-
         }
-
         public ProductBL GetProductSubCategories(int id)
         {
             try
@@ -39,7 +36,6 @@ namespace ShoppingV2.Service
                 throw ex;
             }
         }
-
         public void Update(int productId, int quantity)
         {
             var productBO = productRepository.Get(productId);

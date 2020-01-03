@@ -11,10 +11,8 @@ namespace ShoppingV2.Entities
     {
         public string OrderitemDate { get; set; }
         public int ProductId { get; set; }
-
         [ForeignKey("ProductId")]
         public virtual ProductDL ProductName { get; set; }
-
         public int OrderId { get; set; }
         [ForeignKey("OrderId")]
         public virtual OrderDL Orders { get; set; }

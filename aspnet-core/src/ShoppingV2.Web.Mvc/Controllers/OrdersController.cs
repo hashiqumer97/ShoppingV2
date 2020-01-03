@@ -18,7 +18,6 @@ namespace ShoppingV2.Web.Controllers
     {
         private readonly IOrderService orderService;
         private readonly Abp.ObjectMapping.IObjectMapper objectMapper;
-
         public OrdersController(IOrderService orderService, Abp.ObjectMapping.IObjectMapper objectMapper)
         {
             this.orderService = orderService;
@@ -31,12 +30,6 @@ namespace ShoppingV2.Web.Controllers
             var model = ObjectMapper.Map<IEnumerable<OrdersViewModel>>(orderService.GetOrders());
             return View(model);
         }
-
-        public IActionResult GetOrdersById(int id)
-        {
-            var result = orderService.GetOrderById(id);
-            return Json(result);
-        }
         [HttpGet]
         [AbpMvcAuthorize]
         public IActionResult OrderItems(int ordid)
@@ -45,7 +38,6 @@ namespace ShoppingV2.Web.Controllers
             var obj = ObjectMapper.Map<OrdersViewModel>(model);
             return View(obj);
         }
-
         [HttpPost]
         public IActionResult EditOrders([FromBody]OrdersViewModel ordersViewModel)
         {
@@ -57,11 +49,9 @@ namespace ShoppingV2.Web.Controllers
             }
             catch (Exception ex)
             {
-
                 return BadRequest(ex);
             }
         }
-
         [HttpPost]
         public IActionResult DeleteOrder([FromBody]OrdersViewModel ordersViewModel)
         {
@@ -69,19 +59,12 @@ namespace ShoppingV2.Web.Controllers
             orderService.ChangeOrder(order);
             return RedirectToAction("AddCart", "AddCart");
         }
-
         [HttpPost]
         public IActionResult DeleteEntireOrder([FromBody]OrdersViewModel ordersViewModel)
         {
-
             var order = objectMapper.Map<OrderBL>(ordersViewModel);
             orderService.DeleteEntireOrder(order);
             return View(order);
-
         }
-
-
-
     }
-
 }

@@ -8,12 +8,11 @@
         var answer = (Number(unitPrice) * Number(prodQuantity));
         row.cells[6].childNodes[0].value = answer;
     }
-
 }
+
 var products = [];
 function updateOrder() {
     var orderId = 0;
-
     var table = document.getElementById("orderitemstable");
     var checkBox = table.getElementsByTagName("input");
     for (var i = 1; i < checkBox.length; i++) {
@@ -44,12 +43,10 @@ function updateOrder() {
             products.push(ordersLineItem);
         } 
     }
-
     order = {
         orderId: orderId,
         orderLineItems: products
     }
-
     console.log(JSON.stringify(order));
     $.ajax({
         //url: '../Orders/EditOrders',
@@ -76,7 +73,6 @@ function updateOrder() {
 function deleteOrder() {
     var orderId = 0;
     var http = new XMLHttpRequest();
-
     var table = document.getElementById("orderitemstable");
     var checkBox = table.getElementsByTagName("input");
     for (var i = 1; i < checkBox.length; i++) {
@@ -106,12 +102,10 @@ function deleteOrder() {
             products.push(ordersLineItem);
         } 
     }
-
     order = {
         orderId: orderId,
         orderLineItems: products
     }
-
     console.log(JSON.stringify(order));
     $.ajax({
        // url: '../Orders/DeleteOrder',

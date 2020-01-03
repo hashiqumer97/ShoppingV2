@@ -55,7 +55,6 @@ namespace ShoppingV2.Web.Startup
 
             IdentityRegistrar.Register(services);
             AuthConfigurer.Configure(services, _appConfiguration);
-
             services.AddScoped<IWebResourceManager, WebResourceManager>();
             services.AddTransient<IProductService, ProductService>();
             services.AddScoped<OrderBL>();
@@ -63,7 +62,6 @@ namespace ShoppingV2.Web.Startup
             services.AddScoped<ProductBL>();
             services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<ICustomerService, CustomerService>();
-
             services.AddSignalR();
             
             // Configure Abp and Dependency Injection

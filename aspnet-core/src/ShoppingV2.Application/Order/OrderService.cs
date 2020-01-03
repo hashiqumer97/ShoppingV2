@@ -24,7 +24,6 @@ namespace ShoppingV2.Service
         private readonly IUnitOfWork unitOfWork;
         private readonly IRepository<ProductDL> productRepository;
 
-
         public OrderService(Abp.ObjectMapping.IObjectMapper objectMapper, IProductService productService,
             IRepository<OrderDL> repository, IRepository<OrderItemDL> itemrepository, IUnitOfWork unitOfWork,
             IRepository<ProductDL> productRepository)

@@ -35,7 +35,6 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             this.orderService = orderService;
             this.objectMapper = objectMapper;
         }
-
         [HttpGet("ViewCart")]
         public IActionResult ViewCart()
         {
@@ -47,12 +46,8 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             model1.SelectedCustomerName = objectMapper.Map<List<CustomerViewModel>>(customers);
             var products = productService.GetProducts().ToList();
             model1.SelectedProductName = objectMapper.Map<List<ProductViewModel>>(products);
-
-
             return View(model1);
-
         }
-
         [HttpPost]
         public IActionResult CreateOrder([FromBody]OrdersViewModel ordersViewModel)
         {
@@ -66,7 +61,6 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             {
                 return BadRequest(ex);
             }
-
         }
     }
 }

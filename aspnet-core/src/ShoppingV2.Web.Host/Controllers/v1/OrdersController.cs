@@ -19,7 +19,6 @@ namespace ShoppingV2.Web.Host.Controllers.v1
     {
         private readonly IOrderService orderService;
         private readonly Abp.ObjectMapping.IObjectMapper objectMapper;
-
         public OrdersController(IOrderService orderService, Abp.ObjectMapping.IObjectMapper objectMapper)
         {
             this.orderService = orderService;
@@ -40,7 +39,6 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             var obj = ObjectMapper.Map<OrdersViewModel>(model);
             return View(obj);
         }
-
         [HttpPost("EditOrders")]
         public IActionResult EditOrders([FromBody]OrdersViewModel ordersViewModel)
         {
@@ -52,11 +50,9 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             }
             catch (Exception ex)
             {
-
                 return BadRequest(ex);
             }
         }
-
         [HttpPost("DeleteOrder")]
         public IActionResult DeleteOrder([FromBody]OrdersViewModel ordersViewModel)
         {
@@ -64,15 +60,12 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             orderService.ChangeOrder(order);
             return RedirectToAction("AddCart", "AddCart");
         }
-
         [HttpPost("DeleteEntireOrder")]
         public IActionResult DeleteEntireOrder([FromBody]OrdersViewModel ordersViewModel)
         {
-
             var order = objectMapper.Map<OrderBL>(ordersViewModel);
             orderService.DeleteEntireOrder(order);
             return View(order);
-
         }
     }
 }

@@ -13,13 +13,11 @@ function LoadProducts() {
                 document.getElementById("desc").innerText = oj.result.productDescription;
                 document.getElementById("price").innerText = oj.result.unitPrice;
             }
-
         } else {
             console.log("No Product Found!");
         }
     };
 }
-
 var productpick = document.getElementById("productpick");
 productpick.addEventListener("change", (e) => {
     productId = e.target.value
@@ -29,45 +27,35 @@ productpick.addEventListener("change", (e) => {
 function calculate() {
     var field1 = document.getElementById("price").innerText;
     var field2 = document.getElementById("quantity").value;
-
     var result = parseFloat(field1) * parseFloat(field2);
-
-
     if (!isNaN(result)) {
         document.getElementById("subtotal").innerText = result;
-
     }
 }
-
 var quantityinput = document.getElementById("quantity");
 quantityinput.addEventListener("input", (e) => {
     calculate()
 })
-
 var customerId = document.getElementById("customerpick").value;
+
 function LoadCustomers() {
     var http = new XMLHttpRequest();
     console.log(customerId);
     http.open('GET', '../customer/GetCustomerById/' + customerId, true);
     http.send();
-
     http.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             var obj = JSON.parse(this.responseText);
-
-
         } else {
             console.log("No Customer Name Found!");
         }
     };
 }
-
 var customerpick = document.getElementById("customerpick");
 customerpick.addEventListener("input", (c) => {
     customerId = c.target.value
     LoadCustomers()
 })
-
 window.onload = function () {
     n = new Date();
     y = n.getFullYear();
@@ -75,7 +63,6 @@ window.onload = function () {
     d = n.getDate();
     document.getElementById("pdate").innerHTML = y + "-" + m + "-" + d;
 }
-
 var customerName;
 var date;
 var productName;
@@ -173,10 +160,7 @@ function AddOrderLine() {
         OrderitemQuantity: 0,
         OrderitemProductPrice: 0,
         OrderId: 0
-
     };
-
-
     orderLine.OrderitemDate = date;
     orderLine.ProductId = parseInt(productName);
     orderLine.OrderitemUnitPrice = parseInt(unitPrice);
@@ -184,7 +168,6 @@ function AddOrderLine() {
     orderLine.OrderitemProductPrice = parseInt(subTotal);
     orderLine.OrderId = 0;
     products.push(orderLine);
-
     console.log(products);
 }
 
@@ -192,15 +175,12 @@ function confirmOrder() {
 
     var date = document.getElementById("pdate").innerText;
     var customer = document.getElementById("customerpick").value;
-
     var orders = {
         ProductOrderDate: date,
         CustomerId: parseInt(customer),
         OrderLineItems: products
     };
-
     console.log(JSON.stringify(orders));
-
     $.ajax({
         //url: '../AddCart/CreateOrder',
         url: 'http://localhost:21021/api/v1/AddCart',
@@ -217,7 +197,6 @@ function confirmOrder() {
         error: function () {
             location.reload();
         }
-
     });
     alert("The order has been checked and saved Successfully! If the Quantity is above 100 the order will not be updated successfully!");
     location.reload();
@@ -226,11 +205,10 @@ function confirmOrder() {
 function deleteRows() {
     var table = document.getElementById("tableproduct");
     var rowCount = table.rows.length;
-
         var row = table.deleteRow(rowCount - 1);
         rowCount--;
-    }
- 
+}
+
 function deleteEntireOrder() {
     var http = new XMLHttpRequest();
 
@@ -240,16 +218,11 @@ function deleteEntireOrder() {
             var ordid = this.cells[0].innerText;
             var date = this.cells[2].innerText;
             var customerId = this.cells[1].innerText;
-            
-
-
             var orders = {
                 Id: parseInt(ordid),
                 OrderitemDate: date,
                 CustomerId: parseInt(customerId),
                 Products: products
-                
-
             };
             console.log(JSON.stringify(orders));
             $.ajax({
@@ -271,5 +244,4 @@ function deleteEntireOrder() {
             location.reload();
         }
     }
-
 }

@@ -13,7 +13,6 @@ namespace ShoppingV2.Web.Controllers
     public class CustomerController : ShoppingV2ControllerBase
     {
         private readonly ICustomerService _customerService;
-
         public CustomerController(ICustomerService customerService)
         {
             _customerService = customerService;
@@ -25,7 +24,5 @@ namespace ShoppingV2.Web.Controllers
             var customers = ObjectMapper.Map<IEnumerable<CustomerViewModel>>(cust);
             return View(customers);
         }
-
-
     }
 }

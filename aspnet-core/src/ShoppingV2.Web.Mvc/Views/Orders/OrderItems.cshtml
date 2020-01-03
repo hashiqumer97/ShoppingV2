@@ -19,11 +19,9 @@
                     <th>Quantity</th>
                     <th>Product Price</th>
                     <th>Action</th>
-
                 </tr>
                 @foreach (var items in Model.OrderLineItems)
                 {
-
                     <tr>
                         <td><p id="getorderitemid">@items.Id </p></td>
                         <td><p id="getproductid"> @items.ProductId</p></td>
@@ -38,12 +36,9 @@
                             </label>
                         </td>
                     </tr>
-
                 }
-
             </thead>
         </table>
-
     </div>
     <div class="text-center">
         <a role="button" id="btnedit" class="btn btn-warning" style="align-items:center;color:white" onclick="updateOrder();">Edit Order</a>

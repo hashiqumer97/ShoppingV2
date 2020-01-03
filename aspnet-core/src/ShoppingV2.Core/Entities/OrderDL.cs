@@ -12,9 +12,7 @@ namespace ShoppingV2.Entities
         public string ProductOrderDate { get; set; }
         public List<OrderItemDL> OrderLineItems { get; set; }
         public int CustomerId { get; set; }
-
         [ForeignKey("CustomerId")]
-
         public CustomerDL Customers { get; set; }
     }
 }

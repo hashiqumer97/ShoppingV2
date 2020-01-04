@@ -1,4 +1,5 @@
 ﻿using Abp.Domain.Repositories;
+using Abp.Domain.Uow;
 using AutoMapper;
 using ShoppingV2.BusinessObjects;
 using ShoppingV2.Entities;
@@ -14,11 +15,14 @@ namespace ShoppingV2.Service
     {
         private readonly IMapper mapper;
         private readonly IRepository<ProductDL> productRepository;
+        private readonly IUnitOfWork unitofwork;
 
-        public ProductService(IRepository<OrderDL> repository, IMapper mapper, IRepository<ProductDL> productRepository)
+        public ProductService(IRepository<OrderDL> repository, IMapper mapper, IRepository<ProductDL> productRepository
+            , IUnitOfWork unitofwork)
         {
             this.mapper = mapper;
             this.productRepository = productRepository;
+            this.unitofwork = unitofwork;
         }
         public List<ProductBL> GetProducts()
         {

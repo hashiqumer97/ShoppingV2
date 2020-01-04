@@ -61,18 +61,24 @@ namespace ShoppingV2.Service
         }
         public void ChangeOrder(OrderBL items)
         {
+            
             foreach (var item in items.OrderLineItems)
             {
+                var temp = itemrepository.Get(item.Id);
                 var orderLines = new OrderItemBL(item.Id, item.OrderitemDate, item.ProductId, item.OrderId, item.OrderitemUnitPrice
                     , item.OrderitemQuantity, item.OrderitemProductPrice, item.IsDelete);
                 var getProductQuantity = productRepository.Get(item.ProductId);
+                var tempDiff = temp.OrderitemQuantity - item.OrderitemQuantity;
                 if (item.IsDelete)
                     itemrepository.Delete(objectMapper.Map<OrderItemDL>(orderLines));
                 if (getProductQuantity.Quantity <= 0)
                     throw new InvalidOperationException("Quantity is over!");
                 if (!item.IsDelete)
+                    orderLines.OrderitemQuantity = item.OrderitemQuantity;
+                    orderLines.OrderitemDate = item.OrderitemDate;
+                    orderLines.OrderitemProductPrice = item.OrderitemProductPrice;
                     itemrepository.Update(objectMapper.Map<OrderItemDL>(orderLines));
-                    productService.UpdateProductQuantity(item.ProductId, item.DiffQuantity);
+                productService.UpdateProductQuantity(item.ProductId, tempDiff);
             }
             unitOfWork.SaveChanges();
         }

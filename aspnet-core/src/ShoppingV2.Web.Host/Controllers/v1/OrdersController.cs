@@ -28,24 +28,24 @@ namespace ShoppingV2.Web.Host.Controllers.v1
         [AbpMvcAuthorize]
         public IActionResult ViewOrders()
         {
-            var model = ObjectMapper.Map<List<OrdersViewModel>>(orderService.GetOrders());
-            return View(model);
+            var getOrders = objectMapper.Map<List<OrdersViewModel>>(orderService.GetOrders());
+            return View(getOrders);
         }
         [HttpGet("ViewOrderItems")]
         [AbpMvcAuthorize]
         public IActionResult ViewOrderItems(int ordid)
         {
-            var model = orderService.GetOrderById(ordid);
-            var obj = ObjectMapper.Map<OrdersViewModel>(model);
-            return View(obj);
+            var getOrderById = orderService.GetOrderById(ordid);
+            var viewOrderItems = objectMapper.Map<OrdersViewModel>(getOrderById);
+            return View(viewOrderItems);
         }
-        [HttpPost("EditOrders")]
-        public IActionResult EditOrders([FromBody]OrdersViewModel ordersViewModel)
+        [HttpPut("UpdateOrders")]
+        public IActionResult UpdateOrders([FromBody]OrdersViewModel ordersViewModel)
         {
             try
             {
-                var order = objectMapper.Map<OrderBL>(ordersViewModel);
-                orderService.ChangeOrder(order);
+                var updateOrders = objectMapper.Map<OrderBL>(ordersViewModel);
+                orderService.ChangeOrder(updateOrders);
                 return RedirectToAction("AddCart", "AddCart");
             }
             catch (Exception ex)
@@ -53,19 +53,19 @@ namespace ShoppingV2.Web.Host.Controllers.v1
                 return BadRequest(ex);
             }
         }
-        [HttpPost("DeleteOrder")]
-        public IActionResult DeleteOrder([FromBody]OrdersViewModel ordersViewModel)
+        [HttpDelete("DeleteOrders")]
+        public IActionResult DeleteOrders([FromBody]OrdersViewModel ordersViewModel)
         {
-            var order = objectMapper.Map<OrderBL>(ordersViewModel);
-            orderService.ChangeOrder(order);
+            var deleteOrders = objectMapper.Map<OrderBL>(ordersViewModel);
+            orderService.ChangeOrder(deleteOrders);
             return RedirectToAction("AddCart", "AddCart");
         }
-        [HttpPost("DeleteEntireOrder")]
+        [HttpDelete("DeleteEntireOrder")]
         public IActionResult DeleteEntireOrder([FromBody]OrdersViewModel ordersViewModel)
         {
-            var order = objectMapper.Map<OrderBL>(ordersViewModel);
-            orderService.DeleteEntireOrder(order);
-            return View(order);
+            var deleteEntireOrder = objectMapper.Map<OrderBL>(ordersViewModel);
+            orderService.DeleteEntireOrder(deleteEntireOrder);
+            return View(deleteEntireOrder);
         }
     }
 }

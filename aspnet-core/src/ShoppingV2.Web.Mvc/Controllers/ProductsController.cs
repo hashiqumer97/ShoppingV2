@@ -20,14 +20,14 @@ namespace ShoppingV2.Web.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            var model = new AddCartViewModel();
-            return View(model);
+            var viewProducts = new AddCartViewModel();
+            return View(viewProducts);
         }
         [HttpGet]
         public JsonResult GetProductById(int id)
         {
-            var result = _productService.GetProductSubCategories(id);
-            return Json(result);
+            var getProductById = _productService.GetProductById(id);
+            return Json(getProductById);
         }
     }
 }

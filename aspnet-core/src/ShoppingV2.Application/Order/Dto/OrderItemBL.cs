@@ -42,8 +42,13 @@ namespace ShoppingV2.BusinessObjects
         public bool IsDelete { get; set; }
         public int DiffQuantity { get; set; }
 
+        public OrderItemBL(int orderitemid, bool isdelete)
+        {
+            Id = orderitemid;
+            IsDelete = isdelete;
+        }
         public OrderItemBL(int orderitemid, string orderitemdate, int productid, int orderid, int unitprice,
-            int quantity, int productprice)
+            int quantity, int productprice, bool isdelete)
         {
             Id = orderitemid;
             OrderitemDate = orderitemdate;
@@ -52,11 +57,10 @@ namespace ShoppingV2.BusinessObjects
             OrderitemUnitPrice = unitprice;
             OrderitemQuantity = quantity;
             OrderitemProductPrice = productprice;
+            IsDelete = isdelete;
+
         }
 
-        public OrderItemBL(int orderitemid)
-        {
-            Id = orderitemid;
-        }
+        
     }
 }

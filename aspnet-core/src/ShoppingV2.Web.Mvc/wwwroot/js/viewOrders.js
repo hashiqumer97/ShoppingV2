@@ -49,10 +49,9 @@ function updateOrder() {
     }
     console.log(JSON.stringify(order));
     $.ajax({
-        //url: '../Orders/EditOrders',
-        url: 'http://localhost:21021/api/v1/Orders/EditOrders',
+        url: 'http://localhost:21021/api/v1/Orders/UpdateOrders',
         dataType: 'json',
-        type: 'post',
+        type: 'put',
         contentType: 'application/json',
         data: JSON.stringify(order),
         processData: false,
@@ -108,10 +107,9 @@ function deleteOrder() {
     }
     console.log(JSON.stringify(order));
     $.ajax({
-       // url: '../Orders/DeleteOrder',
-        url: 'http://localhost:21021/api/v1/Orders/DeleteOrder',
+        url: 'http://localhost:21021/api/v1/Orders/DeleteOrders',
         dataType: 'json',
-        type: 'post',
+        type: 'delete',
         contentType: 'application/json',
         data: JSON.stringify(order),
         processData: false,

@@ -38,23 +38,23 @@ namespace ShoppingV2.Web.Host.Controllers.v1
         [HttpGet("ViewCart")]
         public IActionResult ViewCart()
         {
-            AddCartViewModel model1 = new AddCartViewModel
+            AddCartViewModel model = new AddCartViewModel
             {
                 ProductListModel = new List<SelectListItem>()
             };
-            var customers = customerService.GetCustomers().ToList();
-            model1.SelectedCustomerName = objectMapper.Map<List<CustomerViewModel>>(customers);
-            var products = productService.GetProducts().ToList();
-            model1.SelectedProductName = objectMapper.Map<List<ProductViewModel>>(products);
-            return View(model1);
+            var getCustomers = customerService.GetCustomers().ToList();
+            model.SelectedCustomerName = objectMapper.Map<List<CustomerViewModel>>(getCustomers);
+            var getProducts = productService.GetProducts().ToList();
+            model.SelectedProductName = objectMapper.Map<List<ProductViewModel>>(getProducts);
+            return View(model);
         }
         [HttpPost]
         public IActionResult CreateOrder([FromBody]OrdersViewModel ordersViewModel)
         {
             try
             {
-                var order = objectMapper.Map<OrderBL>(ordersViewModel);
-                orderService.CreateOrder(order);
+                var createOrder = objectMapper.Map<OrderBL>(ordersViewModel);
+                orderService.CreateOrder(createOrder);
                 return RedirectToAction("AddCart", "AddCart");
             }
             catch (Exception ex)

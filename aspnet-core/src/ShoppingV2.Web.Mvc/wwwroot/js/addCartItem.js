@@ -182,7 +182,6 @@ function confirmOrder() {
     };
     console.log(JSON.stringify(orders));
     $.ajax({
-        //url: '../AddCart/CreateOrder',
         url: 'http://localhost:21021/api/v1/AddCart',
         dataType: 'json',
         type: 'post',
@@ -226,10 +225,9 @@ function deleteEntireOrder() {
             };
             console.log(JSON.stringify(orders));
             $.ajax({
-                //url: '../Orders/DeleteEntireOrder',
                 url: 'http://localhost:21021/api/v1/Orders/DeleteEntireOrder',
                 dataType: 'json',
-                type: 'post',
+                type: 'delete',
                 contentType: 'application/json',
                 data: JSON.stringify(orders),
                 processData: false,

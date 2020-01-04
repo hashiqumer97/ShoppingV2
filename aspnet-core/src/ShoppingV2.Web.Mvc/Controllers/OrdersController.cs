@@ -27,44 +27,16 @@ namespace ShoppingV2.Web.Controllers
         [AbpMvcAuthorize]
         public IActionResult Orders()
         {
-            var model = ObjectMapper.Map<IEnumerable<OrdersViewModel>>(orderService.GetOrders());
-            return View(model);
+            var getOrders = objectMapper.Map<IEnumerable<OrdersViewModel>>(orderService.GetOrders());
+            return View(getOrders);
         }
         [HttpGet]
         [AbpMvcAuthorize]
         public IActionResult OrderItems(int ordid)
         {
-            var model = orderService.GetOrderById(ordid);
-            var obj = ObjectMapper.Map<OrdersViewModel>(model);
-            return View(obj);
-        }
-        [HttpPost]
-        public IActionResult EditOrders([FromBody]OrdersViewModel ordersViewModel)
-        {
-            try
-            {
-                var order = objectMapper.Map<OrderBL>(ordersViewModel);
-                orderService.ChangeOrder(order);
-                return RedirectToAction("AddCart", "AddCart");
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex);
-            }
-        }
-        [HttpPost]
-        public IActionResult DeleteOrder([FromBody]OrdersViewModel ordersViewModel)
-        {
-            var order = objectMapper.Map<OrderBL>(ordersViewModel);
-            orderService.ChangeOrder(order);
-            return RedirectToAction("AddCart", "AddCart");
-        }
-        [HttpPost]
-        public IActionResult DeleteEntireOrder([FromBody]OrdersViewModel ordersViewModel)
-        {
-            var order = objectMapper.Map<OrderBL>(ordersViewModel);
-            orderService.DeleteEntireOrder(order);
-            return View(order);
+            var getOrdersById = orderService.GetOrderById(ordid);
+            var viewOrdersById = objectMapper.Map<OrdersViewModel>(getOrdersById);
+            return View(viewOrdersById);
         }
     }
 }

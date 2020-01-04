@@ -24,24 +24,24 @@ namespace ShoppingV2.Service
         {
             return mapper.Map<List<ProductBL>>(productRepository.GetAll());
         }
-        public ProductBL GetProductSubCategories(int id)
+        public ProductBL GetProductById(int id)
         {
             try
             {
-                var query = productRepository.Get(id);
-                return mapper.Map<ProductBL>(query);
+                var getProductId = productRepository.Get(id);
+                return mapper.Map<ProductBL>(getProductId);
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
-        public void Update(int productId, int quantity)
+        public void UpdateProductQuantity(int productId, int quantity)
         {
-            var productBO = productRepository.Get(productId);
-            productBO.Quantity = productBO.Quantity + quantity;
-            var product = mapper.Map<ProductDL>(productBO);
-            productRepository.Update(product);
+            var getProductId = productRepository.Get(productId);
+            getProductId.Quantity = getProductId.Quantity + quantity;
+            var updateProductQuantity = mapper.Map<ProductDL>(getProductId);
+            productRepository.Update(updateProductQuantity);
         }
     }
 }

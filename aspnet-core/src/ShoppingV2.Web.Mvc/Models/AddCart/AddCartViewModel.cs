@@ -17,10 +17,7 @@ namespace ShoppingV2.Web.Models.AddCart
         public List<CustomerViewModel> SelectedCustomerName { get; set; }
         public List<ProductViewModel> SelectedProductName { get; set; }
         public List<OrderItemsViewModel> OrderItems { get; set; }
-
-
         public string ProductDescription { get; set; }
-
         [Display(Name = "")]
         public string CustomerName { get; set; }
         [Display(Name = "")]

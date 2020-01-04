@@ -20,9 +20,9 @@ namespace ShoppingV2.Web.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            var cust = _customerService.GetCustomers();
-            var customers = ObjectMapper.Map<IEnumerable<CustomerViewModel>>(cust);
-            return View(customers);
+            var getCustomers = _customerService.GetCustomers();
+            var viewCustomers = ObjectMapper.Map<IEnumerable<CustomerViewModel>>(getCustomers);
+            return View(viewCustomers);
         }
     }
 }

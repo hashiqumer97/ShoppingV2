@@ -8,7 +8,7 @@ namespace ShoppingV2.ServiceInterface
     public interface IProductService
     {
         List<ProductBL> GetProducts();
-        ProductBL GetProductSubCategories(int id);
-        void Update(int productId, int quantity);
+        ProductBL GetProductById(int id);
+        void UpdateProductQuantity(int productId, int quantity);
     }
 }

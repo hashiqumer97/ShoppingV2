@@ -32,7 +32,6 @@
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ShoppingV2.Application\ShoppingV2.Application.csproj" />
     <ProjectReference Include="..\ShoppingV2.Web.Core\ShoppingV2.Web.Core.csproj" />
     <ProjectReference Include="..\ShoppingV2.Web.Mvc\ShoppingV2.Web.Mvc.csproj" />
   </ItemGroup>

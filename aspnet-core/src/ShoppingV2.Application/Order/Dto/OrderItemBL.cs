@@ -22,9 +22,5 @@ namespace ShoppingV2.BusinessObjects
         public int OrderitemProductPrice { get; set; }
         public bool IsDelete { get; set; }
         public int DiffQuantity { get; set; }
-
-       
-
-        
     }
 }

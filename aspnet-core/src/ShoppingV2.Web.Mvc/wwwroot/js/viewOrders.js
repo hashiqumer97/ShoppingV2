@@ -41,10 +41,10 @@ function updateOrder() {
             ordersLineItem.OrderId = parseInt(orderId);
 
             products.push(ordersLineItem);
-        } 
+        }
     }
     order = {
-        orderId: orderId,
+        Id: orderId,
         orderLineItems: products
     }
     console.log(JSON.stringify(order));
@@ -99,10 +99,10 @@ function deleteOrder() {
             };
 
             products.push(ordersLineItem);
-        } 
+        }
     }
     order = {
-        orderId: orderId,
+        Id: orderId,
         orderLineItems: products
     }
     console.log(JSON.stringify(order));
@@ -123,4 +123,3 @@ function deleteOrder() {
     alert("The Selected Order Line(s) has been checked and deleted Successfully!");
     location.reload();
 }
-

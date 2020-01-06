@@ -215,13 +215,9 @@ function deleteEntireOrder() {
     for (var i = 1; i < table.rows.length; i++) {
         table.rows[i].onclick = function () {
             var ordid = this.cells[0].innerText;
-            var date = this.cells[2].innerText;
-            var customerId = this.cells[1].innerText;
             var orders = {
-                Id: parseInt(ordid),
-                OrderitemDate: date,
-                CustomerId: parseInt(customerId),
-                Products: products
+                Id: ordid,
+                orderLineItems: products
             };
             console.log(JSON.stringify(orders));
             $.ajax({

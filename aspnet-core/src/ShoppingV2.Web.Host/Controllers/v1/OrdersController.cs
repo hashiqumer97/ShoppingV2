@@ -36,8 +36,8 @@ namespace ShoppingV2.Web.Host.Controllers.v1
         public IActionResult ViewOrderItems(int ordid)
         {
             var getOrderById = orderService.GetOrderById(ordid);
-            var viewOrderItems = objectMapper.Map<OrdersViewModel>(getOrderById);
-            return View(viewOrderItems);
+            objectMapper.Map<OrdersViewModel>(getOrderById);
+            return Ok();
         }
         [HttpPut("UpdateOrders")]
         public IActionResult UpdateOrders([FromBody]OrdersViewModel ordersViewModel)
@@ -46,7 +46,7 @@ namespace ShoppingV2.Web.Host.Controllers.v1
             {
                 var updateOrders = objectMapper.Map<OrderBL>(ordersViewModel);
                 orderService.ChangeOrder(updateOrders);
-                return RedirectToAction("AddCart", "AddCart");
+                return Ok();
             }
             catch (Exception ex)
             {
@@ -58,14 +58,14 @@ namespace ShoppingV2.Web.Host.Controllers.v1
         {
             var deleteOrders = objectMapper.Map<OrderBL>(ordersViewModel);
             orderService.ChangeOrder(deleteOrders);
-            return RedirectToAction("AddCart", "AddCart");
+            return Ok();
         }
         [HttpDelete("DeleteEntireOrder")]
         public IActionResult DeleteEntireOrder([FromBody]OrdersViewModel ordersViewModel)
         {
             var deleteEntireOrder = objectMapper.Map<OrderBL>(ordersViewModel);
             orderService.DeleteEntireOrder(deleteEntireOrder);
-            return View(deleteEntireOrder);
+            return Ok();
         }
     }
 }

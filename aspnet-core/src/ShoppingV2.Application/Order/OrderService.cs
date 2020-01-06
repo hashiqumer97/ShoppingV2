@@ -1,6 +1,5 @@
 ﻿using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
-using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShoppingV2.BusinessObjects;
@@ -17,21 +16,19 @@ namespace ShoppingV2.Service
 {
     public class OrderService : IOrderService
     {
-        private readonly Abp.ObjectMapping.IObjectMapper objectMapper;
+        private readonly IObjectMapper objectMapper;
         private readonly IProductService productService;
         private readonly IRepository<OrderDL> repository;
-        private readonly IRepository<OrderItemDL> itemrepository;
         private readonly IUnitOfWork unitOfWork;
         private readonly IRepository<ProductDL> productRepository;
 
         public OrderService(Abp.ObjectMapping.IObjectMapper objectMapper, IProductService productService,
-            IRepository<OrderDL> repository, IRepository<OrderItemDL> itemrepository, IUnitOfWork unitOfWork,
+            IRepository<OrderDL> repository, IUnitOfWork unitOfWork,
             IRepository<ProductDL> productRepository)
         {
             this.objectMapper = objectMapper;
             this.productService = productService;
             this.repository = repository;
-            this.itemrepository = itemrepository;
             this.unitOfWork = unitOfWork;
             this.productRepository = productRepository;
         }
@@ -45,6 +42,8 @@ namespace ShoppingV2.Service
             foreach (var item in order.OrderLineItems)
             {
                 var getProductId = productRepository.Get(item.ProductId);
+                if (item.OrderitemQuantity >= 100)
+                    throw new InvalidOperationException("Quantity has been exceeded!");
                 if (getProductId.Quantity <= 0)
                     throw new InvalidOperationException("Quantity is over!");
                 productService.UpdateProductQuantity(item.ProductId, -(item.OrderitemQuantity));
@@ -58,27 +57,43 @@ namespace ShoppingV2.Service
             var getOrderId = new OrderBL(orders.Id);
             var deleteOrder = objectMapper.Map<OrderDL>(getOrderId);
             repository.Delete(deleteOrder);
+            unitOfWork.SaveChanges();
         }
         public void ChangeOrder(OrderBL items)
         {
-            
+            var tempOrder = repository.GetAllIncluding().Include(i => i.OrderLineItems).First(o => o.Id == items.Id);
             foreach (var item in items.OrderLineItems)
             {
-                var temp = itemrepository.Get(item.Id);
-                var orderLines = new OrderItemBL(item.Id, item.OrderitemDate, item.ProductId, item.OrderId, item.OrderitemUnitPrice
-                    , item.OrderitemQuantity, item.OrderitemProductPrice, item.IsDelete);
-                var getProductQuantity = productRepository.Get(item.ProductId);
-                var tempDiff = temp.OrderitemQuantity - item.OrderitemQuantity;
-                if (item.IsDelete)
-                    itemrepository.Delete(objectMapper.Map<OrderItemDL>(orderLines));
-                if (getProductQuantity.Quantity <= 0)
-                    throw new InvalidOperationException("Quantity is over!");
+                var getProductId = productRepository.Get(item.ProductId);
                 if (!item.IsDelete)
-                    orderLines.OrderitemQuantity = item.OrderitemQuantity;
-                    orderLines.OrderitemDate = item.OrderitemDate;
-                    orderLines.OrderitemProductPrice = item.OrderitemProductPrice;
-                    itemrepository.Update(objectMapper.Map<OrderItemDL>(orderLines));
+                    if (item.OrderitemQuantity >= 100)
+                        throw new InvalidOperationException("Quantity has been exceeded!");
+                if (getProductId.Quantity <= 0)
+                    throw new InvalidOperationException("Quantity is over!");
+
+                var tempOrdLine = tempOrder.OrderLineItems.FirstOrDefault(f => f.Id == item.Id);
+                var tempDiff = tempOrdLine.OrderitemQuantity - item.OrderitemQuantity;
+                tempOrdLine.ProductId = item.ProductId;
+                tempOrdLine.OrderitemQuantity = item.OrderitemQuantity;
+                tempOrdLine.OrderitemDate = item.OrderitemDate;
+                tempOrdLine.OrderitemProductPrice = item.OrderitemProductPrice;
+                tempOrder.ProductOrderDate = item.OrderitemDate;
                 productService.UpdateProductQuantity(item.ProductId, tempDiff);
+                repository.Update(tempOrder);
+                if (item.IsDelete)
+                    RemoveOrder(items);
+            }
+            unitOfWork.SaveChanges();
+        }
+        private void RemoveOrder(OrderBL items)
+        {
+            var tempOrder = repository.GetAllIncluding().Include(i => i.OrderLineItems).First(o => o.Id == items.Id);
+            foreach (var item in items.OrderLineItems)
+            {
+                var ordItem = tempOrder.OrderLineItems.FirstOrDefault(o => o.Id == item.Id);
+                var deleteDiff = ordItem.OrderitemQuantity + 0;
+                productService.UpdateProductQuantity(item.ProductId, deleteDiff);
+                tempOrder.OrderLineItems.Remove(ordItem);
             }
             unitOfWork.SaveChanges();
         }

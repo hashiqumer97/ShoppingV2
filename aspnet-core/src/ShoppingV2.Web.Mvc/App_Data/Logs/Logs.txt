@@ -7199,3 +7199,1028 @@ INFO  2020-01-06 15:22:05,587 [21   ] ft.AspNetCore.Routing.EndpointMiddleware -
 DEBUG 2020-01-06 15:22:05,597 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Wp-drEDMA0C2fnF2lkAlOw","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:22:05.5971879+05:30","Properties":{}}
 DEBUG 2020-01-06 15:22:05,605 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Wp-drEDMA0C2fnF2lkAlOw
 DEBUG 2020-01-06 15:22:10,305 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:56:05,449 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-06 15:56:06,099 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-06 15:56:06,147 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.Web.Startup.ShoppingV2WebMvcModule, ShoppingV2.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2WebCoreModule, ShoppingV2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2ApplicationModule, ShoppingV2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.ShoppingV2CoreModule, ShoppingV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,166 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShoppingV2.EntityFrameworkCore.ShoppingV2EntityFrameworkModule, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,176 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,176 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,178 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:06,187 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-06 15:56:06,599 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-06 15:56:06,600 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-06 15:56:06,600 [1    ] o.Configuration.LanguageManagementConfig - Converted ShoppingV2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-06 15:56:06,600 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-06 15:56:08,805 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ShoppingV2.EntityFrameworkCore.ShoppingV2DbContext, ShoppingV2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-06 15:56:12,389 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-06 15:56:12,549 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-06 15:56:12,620 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-06 15:56:12,632 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShoppingV2
+DEBUG 2020-01-06 15:56:12,639 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-06 15:56:13,814 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-06 15:56:14,874 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-01-06 15:56:15,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-01-06 15:56:15,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-06 15:56:15,009 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.CreateUserDto
+DEBUG 2020-01-06 15:56:15,010 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Users.Dto.UserDto
+DEBUG 2020-01-06 15:56:15,010 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-06 15:56:15,010 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-06 15:56:15,010 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Roles.Dto.PermissionDto
+DEBUG 2020-01-06 15:56:15,010 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-06 15:56:15,011 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.MultiTenancy.Dto.TenantDto
+DEBUG 2020-01-06 15:56:15,011 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-01-06 15:56:15,011 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShoppingV2.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2020-01-06 15:56:21,802 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:56:22,625 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:56:22,735 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:56:23,283 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:56:23,391 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:56:26,065 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2020-01-06 15:56:27,057 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:56:27,102 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+DEBUG 2020-01-06 15:56:38,985 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:56:46,738 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:56:55,079 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:56:55,087 [12   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:56:55,190 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:56:56,828 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller ShoppingV2.Web.Controllers.HomeController (ShoppingV2.Web.Mvc).
+INFO  2020-01-06 15:56:58,157 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+DEBUG 2020-01-06 15:57:01,891 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:57:04,397 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:57:04,400 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+DEBUG 2020-01-06 15:57:05,031 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+DEBUG 2020-01-06 15:57:05,032 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Roles.Role, Id:2
+DEBUG 2020-01-06 15:57:05,032 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:4
+DEBUG 2020-01-06 15:57:05,032 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:5
+WARN  2020-01-06 15:57:05,045 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:57:05,048 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+DEBUG 2020-01-06 15:57:07,096 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:57:07,494 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 9296.752900000001ms.
+INFO  2020-01-06 15:57:07,738 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc) in 10678.6069ms
+INFO  2020-01-06 15:57:07,850 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.HomeController.Index (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:57:08,268 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40989.2051ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:57:09,506 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:57:09,657 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:57:09,796 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:09,900 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:10,120 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 15:57:10,154 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+WARN  2020-01-06 15:57:10,554 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:57:10,554 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:57:10,741 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:57:10,770 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 625.6992ms
+INFO  2020-01-06 15:57:10,784 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:10,804 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1514.5879ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:57:10,818 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 15:57:10,848 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 664.3874000000001ms
+INFO  2020-01-06 15:57:10,862 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:10,873 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1612.4295000000002ms 200 application/x-javascript
+INFO  2020-01-06 15:57:11,044 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:57:11,103 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:57:11,236 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:57:11,263 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 256.9003ms 200 application/json
+INFO  2020-01-06 15:57:11,568 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=GPkLsKdxWjSDRQ7AHrsp2g  
+INFO  2020-01-06 15:57:11,647 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:57:12,128 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"GPkLsKdxWjSDRQ7AHrsp2g","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:57:12.0842572+05:30","Properties":{}}
+DEBUG 2020-01-06 15:57:12,133 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:57:12,173 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: GPkLsKdxWjSDRQ7AHrsp2g
+INFO  2020-01-06 15:57:13,424 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AddCart/AddCart  
+INFO  2020-01-06 15:57:13,489 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:57:13,499 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.AddCartController.AddCart (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:57:13,530 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "AddCart", controller = "AddCart", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCart() on controller ShoppingV2.Web.Controllers.AddCartController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:57:17,352 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:57:17,579 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:1
+DEBUG 2020-01-06 15:57:17,579 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:2
+DEBUG 2020-01-06 15:57:17,580 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.ProductDL, Id:1
+DEBUG 2020-01-06 15:57:17,580 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.ProductDL, Id:2
+INFO  2020-01-06 15:57:17,773 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view AddCart.
+DEBUG 2020-01-06 15:57:17,854 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:57:17,854 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:57:17,879 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:57:17,880 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:57:17,912 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view AddCart executed in 137.1884ms.
+INFO  2020-01-06 15:57:17,921 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.AddCartController.AddCart (ShoppingV2.Web.Mvc) in 4382.2268ms
+INFO  2020-01-06 15:57:17,938 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.AddCartController.AddCart (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:57:18,002 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4577.3311ms 200 text/html; charset=utf-8
+DEBUG 2020-01-06 15:57:18,108 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: GPkLsKdxWjSDRQ7AHrsp2g
+INFO  2020-01-06 15:57:18,204 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:57:18,222 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:57:18,417 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6667.4353ms 101 
+INFO  2020-01-06 15:57:18,516 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:18,544 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:57:18,567 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/addCartItem.js  
+INFO  2020-01-06 15:57:18,586 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 15:57:18,603 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+WARN  2020-01-06 15:57:18,624 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:57:18,625 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:57:18,631 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 15:57:18,649 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 15:57:18,679 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 19.3641ms
+INFO  2020-01-06 15:57:18,686 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:57:18,699 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:18,718 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 113.5036ms
+INFO  2020-01-06 15:57:18,720 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 514.5571ms 200 application/x-javascript
+INFO  2020-01-06 15:57:18,732 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:18,753 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 544.3034ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:57:18,778 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/addCartItem.js was not modified
+INFO  2020-01-06 15:57:18,833 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 597.2649ms 304 application/javascript
+INFO  2020-01-06 15:57:18,903 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:57:18,925 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:57:18,948 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:57:18,961 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.6501ms 200 application/json
+INFO  2020-01-06 15:57:19,077 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=LvbOoqaj4o4dhRnuxl0k8A  
+INFO  2020-01-06 15:57:19,116 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:57:19,201 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"LvbOoqaj4o4dhRnuxl0k8A","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:57:19.2004666+05:30","Properties":{}}
+DEBUG 2020-01-06 15:57:19,202 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: LvbOoqaj4o4dhRnuxl0k8A
+DEBUG 2020-01-06 15:57:22,403 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:57:26,337 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/customer/GetCustomerById/Select Customer  
+INFO  2020-01-06 15:57:26,368 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.3296ms 404 
+DEBUG 2020-01-06 15:57:27,435 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:57:28,692 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/products/GetProductById/1  
+INFO  2020-01-06 15:57:28,714 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.ProductsController.GetProductById (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:57:28,726 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetProductById", controller = "Products", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult GetProductById(Int32) on controller ShoppingV2.Web.Controllers.ProductsController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:57:28,774 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.ProductDL, Id:1
+INFO  2020-01-06 15:57:28,938 [12   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-06 15:57:29,002 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.ProductsController.GetProductById (ShoppingV2.Web.Mvc) in 269.25690000000003ms
+INFO  2020-01-06 15:57:29,008 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.ProductsController.GetProductById (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:57:29,017 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 324.1642ms 200 application/json; charset=utf-8
+DEBUG 2020-01-06 15:57:32,449 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:57:37,469 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:57:38,665 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AddCart/AddCart  
+INFO  2020-01-06 15:57:38,692 [13   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:57:38,703 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.AddCartController.AddCart (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:57:38,769 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "AddCart", controller = "AddCart", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCart() on controller ShoppingV2.Web.Controllers.AddCartController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:57:38,795 [13   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:1
+DEBUG 2020-01-06 15:57:38,796 [13   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:2
+DEBUG 2020-01-06 15:57:38,796 [13   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.ProductDL, Id:1
+DEBUG 2020-01-06 15:57:38,796 [13   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.ProductDL, Id:2
+INFO  2020-01-06 15:57:38,903 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view AddCart.
+DEBUG 2020-01-06 15:57:38,973 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:57:38,973 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:57:38,996 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:57:38,997 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:57:39,064 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view AddCart executed in 136.9172ms.
+DEBUG 2020-01-06 15:57:39,161 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: LvbOoqaj4o4dhRnuxl0k8A
+INFO  2020-01-06 15:57:39,167 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.AddCartController.AddCart (ShoppingV2.Web.Mvc) in 295.06280000000004ms
+INFO  2020-01-06 15:57:39,181 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:57:39,203 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:57:39,224 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.AddCartController.AddCart (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:57:39,248 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:57:39,267 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:39,288 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 599.0551ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:57:39,381 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 15:57:39,468 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20198.0593ms 101 
+WARN  2020-01-06 15:57:39,514 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:57:39,516 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:57:39,552 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:39,632 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 15:57:39,652 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:57:39,679 [22   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 15:57:39,738 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 297.3388ms
+INFO  2020-01-06 15:57:39,884 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 90.6301ms
+INFO  2020-01-06 15:57:40,068 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:40,231 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:40,285 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 948.6349ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:57:40,386 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1065.2548000000002ms 200 application/x-javascript
+INFO  2020-01-06 15:57:40,514 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:57:40,586 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:57:40,693 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:57:40,731 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=8-a4Mbqib1F3VMGqSDCRwQ  
+INFO  2020-01-06 15:57:40,762 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 279.8888ms 200 application/json
+INFO  2020-01-06 15:57:40,785 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:57:40,920 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"8-a4Mbqib1F3VMGqSDCRwQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:57:40.9193525+05:30","Properties":{}}
+DEBUG 2020-01-06 15:57:40,923 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 8-a4Mbqib1F3VMGqSDCRwQ
+DEBUG 2020-01-06 15:57:42,480 [23   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:57:43,073 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/Orders  
+INFO  2020-01-06 15:57:43,172 [23   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:57:43,192 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:57:43,227 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Orders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Orders() on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:57:43,528 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:47
+DEBUG 2020-01-06 15:57:43,528 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:76
+DEBUG 2020-01-06 15:57:43,529 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:77
+DEBUG 2020-01-06 15:57:43,529 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:78
+DEBUG 2020-01-06 15:57:43,529 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:79
+DEBUG 2020-01-06 15:57:43,529 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:82
+DEBUG 2020-01-06 15:57:43,529 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:84
+INFO  2020-01-06 15:57:43,604 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Orders.
+DEBUG 2020-01-06 15:57:43,716 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:57:43,716 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:57:43,742 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:57:43,744 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:57:43,824 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Orders executed in 209.7655ms.
+DEBUG 2020-01-06 15:57:43,855 [17   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 8-a4Mbqib1F3VMGqSDCRwQ
+INFO  2020-01-06 15:57:43,890 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc) in 598.0206000000001ms
+INFO  2020-01-06 15:57:43,935 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:57:43,954 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:57:43,978 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:57:44,022 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3295.9177ms 101 
+INFO  2020-01-06 15:57:44,039 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:44,054 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:57:44,077 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 906.1637000000001ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:57:44,094 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 15:57:44,108 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:44,136 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+WARN  2020-01-06 15:57:44,138 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:57:44,138 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:57:44,157 [22   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 15:57:44,344 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 25.9889ms
+INFO  2020-01-06 15:57:44,434 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:57:44,451 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:44,526 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 356.53290000000004ms
+INFO  2020-01-06 15:57:44,576 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 512.1242ms 200 application/x-javascript
+INFO  2020-01-06 15:57:44,625 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:57:44,720 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 684.6094ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:57:44,827 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:57:44,921 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:57:45,004 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:57:45,059 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 224.4862ms 200 application/json
+INFO  2020-01-06 15:57:45,073 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=CUiW6vPHzAQZoIbzjdxHhQ  
+INFO  2020-01-06 15:57:45,099 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:57:45,151 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"CUiW6vPHzAQZoIbzjdxHhQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:57:45.1507509+05:30","Properties":{}}
+DEBUG 2020-01-06 15:57:45,152 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: CUiW6vPHzAQZoIbzjdxHhQ
+DEBUG 2020-01-06 15:57:47,512 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:57:52,539 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:57:57,561 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:58:01,592 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/Orders  
+INFO  2020-01-06 15:58:01,619 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:58:01,630 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:01,638 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Orders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Orders() on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:58:01,708 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:47
+DEBUG 2020-01-06 15:58:01,709 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:76
+DEBUG 2020-01-06 15:58:01,711 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:77
+DEBUG 2020-01-06 15:58:01,711 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:78
+DEBUG 2020-01-06 15:58:01,711 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:79
+DEBUG 2020-01-06 15:58:01,711 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:82
+DEBUG 2020-01-06 15:58:01,712 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:84
+INFO  2020-01-06 15:58:01,762 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Orders.
+DEBUG 2020-01-06 15:58:01,798 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:58:01,798 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:58:01,819 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:01,821 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:01,864 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Orders executed in 96.76010000000001ms.
+DEBUG 2020-01-06 15:58:01,878 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: CUiW6vPHzAQZoIbzjdxHhQ
+INFO  2020-01-06 15:58:01,884 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc) in 226.728ms
+INFO  2020-01-06 15:58:01,929 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:58:01,949 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:01,953 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16891.948ms 101 
+INFO  2020-01-06 15:58:01,967 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 372.25440000000003ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:58:02,129 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:58:02,136 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:58:02,158 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:02,179 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:02,194 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 15:58:02,204 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 15:58:02,229 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+WARN  2020-01-06 15:58:02,266 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:02,267 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:02,279 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 35.6565ms
+INFO  2020-01-06 15:58:02,329 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:02,367 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 228.1859ms 200 application/x-javascript
+INFO  2020-01-06 15:58:02,370 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:02,393 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 160.3424ms
+INFO  2020-01-06 15:58:02,415 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:02,426 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 295.4101ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:02,434 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:58:02,462 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:02,484 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:02,536 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.3551ms 200 application/json
+INFO  2020-01-06 15:58:02,548 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=n965qQfPf94mucrQwwtk-Q  
+INFO  2020-01-06 15:58:02,576 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:58:02,616 [22   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:58:02,629 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"n965qQfPf94mucrQwwtk-Q","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:58:02.628872+05:30","Properties":{}}
+DEBUG 2020-01-06 15:58:02,630 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: n965qQfPf94mucrQwwtk-Q
+INFO  2020-01-06 15:58:02,646 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-01-06 15:58:02,816 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Admin\source\repos\5.0.0\aspnet-core\src\ShoppingV2.Web.Mvc\wwwroot\favicon.ico'
+INFO  2020-01-06 15:58:02,831 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 186.1081ms 200 image/x-icon
+INFO  2020-01-06 15:58:03,929 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/Orders  
+INFO  2020-01-06 15:58:03,943 [23   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:58:03,949 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:03,959 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Orders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Orders() on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:58:03,970 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:47
+DEBUG 2020-01-06 15:58:03,971 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:76
+DEBUG 2020-01-06 15:58:03,971 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:77
+DEBUG 2020-01-06 15:58:03,972 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:78
+DEBUG 2020-01-06 15:58:03,972 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:79
+DEBUG 2020-01-06 15:58:03,972 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:82
+DEBUG 2020-01-06 15:58:03,972 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:84
+DEBUG 2020-01-06 15:58:03,972 [23   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+INFO  2020-01-06 15:58:04,052 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Orders.
+DEBUG 2020-01-06 15:58:04,121 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:58:04,121 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:58:04,129 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:04,130 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:04,153 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Orders executed in 100.449ms.
+INFO  2020-01-06 15:58:04,158 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc) in 194.3871ms
+INFO  2020-01-06 15:58:04,166 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:04,177 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 241.1361ms 200 text/html; charset=utf-8
+DEBUG 2020-01-06 15:58:04,180 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: n965qQfPf94mucrQwwtk-Q
+INFO  2020-01-06 15:58:04,187 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:58:04,229 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1659.3641ms 101 
+INFO  2020-01-06 15:58:04,241 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:58:04,264 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:58:04,276 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:04,294 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 15:58:04,297 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:04,315 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 15:58:04,328 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+WARN  2020-01-06 15:58:04,360 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:04,361 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:04,409 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 13.8679ms
+INFO  2020-01-06 15:58:04,421 [23   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:04,427 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:04,623 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 132.9867ms
+INFO  2020-01-06 15:58:04,663 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 202.6592ms 200 application/x-javascript
+INFO  2020-01-06 15:58:04,671 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:04,712 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 447.6784ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:04,757 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-01-06 15:58:04,828 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Admin\source\repos\5.0.0\aspnet-core\src\ShoppingV2.Web.Mvc\wwwroot\favicon.ico'
+INFO  2020-01-06 15:58:04,861 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:58:04,876 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 120.18700000000001ms 200 image/x-icon
+INFO  2020-01-06 15:58:04,895 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:04,922 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:04,941 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 125.9269ms 200 application/json
+INFO  2020-01-06 15:58:04,963 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=F6Tyjy-KeasdDpWOO6MhVA  
+INFO  2020-01-06 15:58:05,030 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:58:05,076 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"F6Tyjy-KeasdDpWOO6MhVA","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:58:05.075586+05:30","Properties":{}}
+DEBUG 2020-01-06 15:58:05,077 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: F6Tyjy-KeasdDpWOO6MhVA
+INFO  2020-01-06 15:58:07,386 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=101  
+INFO  2020-01-06 15:58:07,400 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:58:07,404 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:07,421 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:58:07,668 [12   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:58:07,880 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+DEBUG 2020-01-06 15:58:07,880 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:1
+DEBUG 2020-01-06 15:58:07,881 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:183
+DEBUG 2020-01-06 15:58:07,881 [7    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:184
+INFO  2020-01-06 15:58:07,940 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 15:58:07,990 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:58:07,991 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:58:08,005 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:08,006 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:08,036 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 88.3109ms.
+INFO  2020-01-06 15:58:08,045 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 615.764ms
+INFO  2020-01-06 15:58:08,073 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+DEBUG 2020-01-06 15:58:08,103 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: F6Tyjy-KeasdDpWOO6MhVA
+INFO  2020-01-06 15:58:08,104 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 707.0292000000001ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:58:08,115 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:58:08,121 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3189.6833ms 101 
+INFO  2020-01-06 15:58:08,235 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/viewOrders.js  
+INFO  2020-01-06 15:58:08,246 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:58:08,249 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:58:08,253 [23   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/viewOrders.js was not modified
+INFO  2020-01-06 15:58:08,269 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37.899100000000004ms 304 application/javascript
+INFO  2020-01-06 15:58:08,281 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:08,290 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:08,299 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 15:58:08,316 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 15:58:08,320 [22   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 15:58:08,347 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 15.9677ms
+WARN  2020-01-06 15:58:08,355 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:08,356 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:08,356 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:08,368 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 125.4882ms 200 application/x-javascript
+INFO  2020-01-06 15:58:08,405 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:08,418 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 87.5176ms
+INFO  2020-01-06 15:58:08,429 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:08,453 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 198.797ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:08,471 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:58:08,503 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:08,533 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:08,538 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 70.59320000000001ms 200 application/json
+INFO  2020-01-06 15:58:08,572 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=i4BsAxyU4pvwJtEFtOb5sg  
+INFO  2020-01-06 15:58:08,602 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:58:08,621 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"i4BsAxyU4pvwJtEFtOb5sg","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:58:08.6214633+05:30","Properties":{}}
+DEBUG 2020-01-06 15:58:08,622 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: i4BsAxyU4pvwJtEFtOb5sg
+DEBUG 2020-01-06 15:58:12,687 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:58:17,694 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:58:20,088 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=101  
+INFO  2020-01-06 15:58:20,119 [14   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:58:20,126 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:20,141 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:58:20,165 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+DEBUG 2020-01-06 15:58:20,165 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:1
+DEBUG 2020-01-06 15:58:20,165 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:183
+DEBUG 2020-01-06 15:58:20,165 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:184
+INFO  2020-01-06 15:58:20,223 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 15:58:20,257 [22   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:58:20,257 [22   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:58:20,269 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:20,270 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:20,420 [22   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 75.4651ms.
+INFO  2020-01-06 15:58:20,457 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 279.1926ms
+DEBUG 2020-01-06 15:58:20,470 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: i4BsAxyU4pvwJtEFtOb5sg
+INFO  2020-01-06 15:58:20,473 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:20,478 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:58:20,489 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 406.01680000000005ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:58:20,606 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11922.1383ms 101 
+INFO  2020-01-06 15:58:20,611 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:58:20,623 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:58:20,639 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:20,652 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:20,659 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 15:58:20,670 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+WARN  2020-01-06 15:58:20,716 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:20,717 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:20,718 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 15:58:20,766 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 52.652300000000004ms
+INFO  2020-01-06 15:58:20,770 [22   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:20,825 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:20,923 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 164.1498ms
+INFO  2020-01-06 15:58:20,944 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 270.1652ms 200 application/x-javascript
+INFO  2020-01-06 15:58:20,966 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:25,412 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 410.4071ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:25,421 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+DEBUG 2020-01-06 15:58:25,424 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:58:25,439 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:25,445 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:25,451 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.5116ms 200 application/json
+INFO  2020-01-06 15:58:25,458 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=dy2qa9LGnPhZQUK-ghCyDw  
+INFO  2020-01-06 15:58:25,467 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:58:25,479 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"dy2qa9LGnPhZQUK-ghCyDw","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:58:25.4789194+05:30","Properties":{}}
+DEBUG 2020-01-06 15:58:25,479 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: dy2qa9LGnPhZQUK-ghCyDw
+DEBUG 2020-01-06 15:58:33,412 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:58:38,902 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:58:42,725 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=101  
+INFO  2020-01-06 15:58:42,742 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:58:42,753 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:42,767 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:58:42,778 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+DEBUG 2020-01-06 15:58:42,779 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:1
+DEBUG 2020-01-06 15:58:42,779 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:183
+DEBUG 2020-01-06 15:58:42,779 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:184
+INFO  2020-01-06 15:58:42,824 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 15:58:42,844 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:58:42,844 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:58:42,861 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:42,863 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:42,888 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 63.5912ms.
+INFO  2020-01-06 15:58:42,898 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 122.2342ms
+DEBUG 2020-01-06 15:58:42,903 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: dy2qa9LGnPhZQUK-ghCyDw
+INFO  2020-01-06 15:58:42,904 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:42,917 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:58:42,926 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 188.40720000000002ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:58:42,936 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17466.130400000002ms 101 
+INFO  2020-01-06 15:58:43,083 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:58:43,138 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:58:43,224 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:43,250 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:43,286 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 15:58:43,292 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+WARN  2020-01-06 15:58:43,319 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:43,320 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:43,323 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 15:58:43,390 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 32.854ms
+INFO  2020-01-06 15:58:43,401 [23   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:43,425 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:43,516 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 138.5581ms
+INFO  2020-01-06 15:58:43,533 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 364.4796ms 200 application/x-javascript
+INFO  2020-01-06 15:58:43,552 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:43,571 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 479.49710000000005ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:43,605 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:58:43,632 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:43,681 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:43,703 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-01-06 15:58:43,719 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 117.754ms 200 application/json
+INFO  2020-01-06 15:58:43,735 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=x_pclpX9fGe6FxpwbLig5w  
+INFO  2020-01-06 15:58:43,786 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Admin\source\repos\5.0.0\aspnet-core\src\ShoppingV2.Web.Mvc\wwwroot\favicon.ico'
+INFO  2020-01-06 15:58:43,801 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-01-06 15:58:43,808 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 136.0765ms 200 image/x-icon
+DEBUG 2020-01-06 15:58:43,837 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"x_pclpX9fGe6FxpwbLig5w","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:58:43.8369055+05:30","Properties":{}}
+DEBUG 2020-01-06 15:58:43,839 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: x_pclpX9fGe6FxpwbLig5w
+DEBUG 2020-01-06 15:58:44,040 [23   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:58:47,439 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=101  
+INFO  2020-01-06 15:58:47,464 [12   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:58:47,489 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:47,499 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:58:47,526 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+DEBUG 2020-01-06 15:58:47,526 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:1
+DEBUG 2020-01-06 15:58:47,526 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:183
+DEBUG 2020-01-06 15:58:47,526 [12   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:184
+INFO  2020-01-06 15:58:47,599 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 15:58:47,650 [22   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:58:47,650 [22   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+DEBUG 2020-01-06 15:58:50,619 [23   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+WARN  2020-01-06 15:58:50,622 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:50,623 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:50,738 [22   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 3076.089ms.
+DEBUG 2020-01-06 15:58:50,757 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: x_pclpX9fGe6FxpwbLig5w
+INFO  2020-01-06 15:58:50,780 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 3255.551ms
+INFO  2020-01-06 15:58:50,785 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:58:50,803 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:58:50,820 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:58:50,831 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:50,842 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:50,850 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+WARN  2020-01-06 15:58:50,870 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:58:50,871 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:58:51,621 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3398.7009000000003ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:58:51,638 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 15:58:51,646 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:58:51,652 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:51,665 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7947.2073ms 101 
+INFO  2020-01-06 15:58:51,670 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 15:58:51,686 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 815.1589ms
+INFO  2020-01-06 15:58:51,752 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:52,560 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 48.111900000000006ms
+INFO  2020-01-06 15:58:52,586 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1744.6631ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:58:52,606 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:58:52,632 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1837.4611ms 200 application/x-javascript
+INFO  2020-01-06 15:58:52,667 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:58:52,686 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:52,726 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:58:52,748 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=xJW92xHvWd79btcEKvIZoQ  
+INFO  2020-01-06 15:58:52,754 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 83.15090000000001ms 200 application/json
+INFO  2020-01-06 15:58:52,772 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:58:52,818 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"xJW92xHvWd79btcEKvIZoQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:58:52.818022+05:30","Properties":{}}
+DEBUG 2020-01-06 15:58:52,819 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: xJW92xHvWd79btcEKvIZoQ
+DEBUG 2020-01-06 15:59:24,074 [24   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: xJW92xHvWd79btcEKvIZoQ
+INFO  2020-01-06 15:59:24,081 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:59:24,098 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31365.760400000003ms 101 
+DEBUG 2020-01-06 15:59:24,112 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:59:29,581 [26   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:59:29,607 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:59:29,623 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:59:29,640 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:59:29,646 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 88.3661ms 200 application/json
+INFO  2020-01-06 15:59:29,652 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Im5oiwNz-MbDPau6DFIvrw  
+INFO  2020-01-06 15:59:29,665 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:59:29,674 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Im5oiwNz-MbDPau6DFIvrw","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:59:29.67414+05:30","Properties":{}}
+INFO  2020-01-06 15:59:34,400 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=101  
+INFO  2020-01-06 15:59:34,422 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:59:34,430 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:59:34,437 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:59:34,458 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+DEBUG 2020-01-06 15:59:34,458 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:1
+DEBUG 2020-01-06 15:59:34,458 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:183
+DEBUG 2020-01-06 15:59:34,458 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:184
+INFO  2020-01-06 15:59:34,502 [24   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 15:59:34,564 [26   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:59:34,564 [26   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:59:34,585 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:59:34,585 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+DEBUG 2020-01-06 15:59:34,607 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:59:34,615 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 117.4504ms.
+INFO  2020-01-06 15:59:34,632 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 182.9982ms
+DEBUG 2020-01-06 15:59:34,645 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: Im5oiwNz-MbDPau6DFIvrw
+INFO  2020-01-06 15:59:34,646 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:59:34,701 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:59:34,731 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 271.6402ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:59:34,744 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5059.6466ms 101 
+INFO  2020-01-06 15:59:34,752 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:59:34,768 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:59:34,786 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:59:34,800 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:59:34,809 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 15:59:34,820 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+WARN  2020-01-06 15:59:34,840 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:59:34,841 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:59:34,863 [28   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 15:59:34,904 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 55.7134ms
+INFO  2020-01-06 15:59:34,949 [29   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:59:35,011 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:59:35,035 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 184.764ms
+INFO  2020-01-06 15:59:35,038 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 300.64070000000004ms 200 application/x-javascript
+INFO  2020-01-06 15:59:35,051 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:59:35,066 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 338.5758ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:59:35,084 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:59:35,107 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:59:35,121 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:59:35,135 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.5484ms 200 application/json
+INFO  2020-01-06 15:59:35,211 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=cxRNjETsSAPg7VSd7EsHXQ  
+INFO  2020-01-06 15:59:35,231 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:59:35,253 [28   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"cxRNjETsSAPg7VSd7EsHXQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:59:35.2528684+05:30","Properties":{}}
+DEBUG 2020-01-06 15:59:35,253 [28   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: cxRNjETsSAPg7VSd7EsHXQ
+DEBUG 2020-01-06 15:59:39,622 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:59:43,272 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=101  
+INFO  2020-01-06 15:59:43,287 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:59:43,292 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:59:43,298 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:59:43,304 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+DEBUG 2020-01-06 15:59:43,304 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:1
+DEBUG 2020-01-06 15:59:43,304 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:183
+INFO  2020-01-06 15:59:43,325 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 15:59:43,364 [28   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:59:43,364 [28   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:59:43,381 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:59:43,382 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:59:43,403 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 81.0053ms.
+INFO  2020-01-06 15:59:43,417 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 105.9375ms
+INFO  2020-01-06 15:59:43,421 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+DEBUG 2020-01-06 15:59:43,427 [31   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: cxRNjETsSAPg7VSd7EsHXQ
+INFO  2020-01-06 15:59:43,449 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 159.6363ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:59:43,454 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:59:43,467 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8254.6807ms 101 
+INFO  2020-01-06 15:59:43,533 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 15:59:43,587 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 15:59:43,595 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:59:43,602 [31   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 15:59:43,636 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:59:43,645 [31   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 15:59:43,651 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 15:59:43,662 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 48.6584ms
+INFO  2020-01-06 15:59:43,669 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 15:59:43,684 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 141.9802ms 200 application/x-javascript
+WARN  2020-01-06 15:59:43,696 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:59:43,696 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:59:43,717 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:59:43,726 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 66.5857ms
+INFO  2020-01-06 15:59:43,734 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 15:59:43,744 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 202.02450000000002ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 15:59:43,765 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 15:59:43,785 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:59:43,797 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 15:59:43,802 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.7353ms 200 application/json
+INFO  2020-01-06 15:59:43,832 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-01-06 15:59:43,845 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=pOG0oaCoP78VG4mModblsQ  
+INFO  2020-01-06 15:59:43,852 [31   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Admin\source\repos\5.0.0\aspnet-core\src\ShoppingV2.Web.Mvc\wwwroot\favicon.ico'
+INFO  2020-01-06 15:59:43,860 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.7175ms 200 image/x-icon
+INFO  2020-01-06 15:59:43,870 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 15:59:43,883 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"pOG0oaCoP78VG4mModblsQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T15:59:43.8832671+05:30","Properties":{}}
+DEBUG 2020-01-06 15:59:43,886 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: pOG0oaCoP78VG4mModblsQ
+DEBUG 2020-01-06 15:59:44,643 [28   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:59:49,646 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 15:59:54,661 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 15:59:56,422 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=101  
+INFO  2020-01-06 15:59:56,448 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 15:59:56,464 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:59:56,498 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 15:59:56,524 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+DEBUG 2020-01-06 15:59:56,524 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:1
+DEBUG 2020-01-06 15:59:56,524 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:183
+INFO  2020-01-06 15:59:56,565 [30   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 15:59:58,510 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 15:59:58,510 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 15:59:58,527 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 15:59:58,528 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 15:59:58,565 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 2001.5459ms.
+DEBUG 2020-01-06 15:59:58,629 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: pOG0oaCoP78VG4mModblsQ
+INFO  2020-01-06 15:59:58,647 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 2068.0346ms
+INFO  2020-01-06 15:59:58,656 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 15:59:58,662 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 15:59:58,668 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14822.269900000001ms 101 
+INFO  2020-01-06 15:59:58,683 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2259.5598ms 200 text/html; charset=utf-8
+INFO  2020-01-06 15:59:58,761 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 16:00:01,085 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+DEBUG 2020-01-06 16:00:01,142 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 16:00:01,147 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:01,159 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:01,173 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:01,179 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:01,191 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 16:00:01,219 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 18.9942ms
+WARN  2020-01-06 16:00:01,219 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:01,221 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:01,224 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:01,257 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2509.8118ms 200 application/x-javascript
+INFO  2020-01-06 16:00:01,289 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:01,403 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 112.3109ms
+INFO  2020-01-06 16:00:01,413 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:01,421 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2690.192ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:01,428 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 16:00:01,453 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:01,470 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:01,478 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.879000000000005ms 200 application/json
+INFO  2020-01-06 16:00:01,495 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Ug5pabaWq4GWpyd94ZkIfw  
+INFO  2020-01-06 16:00:01,543 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 16:00:01,578 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Ug5pabaWq4GWpyd94ZkIfw","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T16:00:01.5780479+05:30","Properties":{}}
+DEBUG 2020-01-06 16:00:01,584 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Ug5pabaWq4GWpyd94ZkIfw
+INFO  2020-01-06 16:00:03,502 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=101  
+INFO  2020-01-06 16:00:03,540 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 16:00:03,551 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:03,568 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 16:00:03,584 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+DEBUG 2020-01-06 16:00:03,584 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:1
+INFO  2020-01-06 16:00:03,605 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 16:00:03,631 [30   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 16:00:03,632 [30   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 16:00:03,649 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:03,650 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:03,800 [30   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 81.9047ms.
+INFO  2020-01-06 16:00:03,817 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 231.8188ms
+INFO  2020-01-06 16:00:03,822 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 16:00:03,832 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+DEBUG 2020-01-06 16:00:03,832 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: Ug5pabaWq4GWpyd94ZkIfw
+INFO  2020-01-06 16:00:03,846 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:03,849 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:03,854 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 16:00:03,863 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:03,867 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2377.8583000000003ms 101 
+INFO  2020-01-06 16:00:03,875 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:03,883 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:03,897 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 373.78880000000004ms 200 text/html; charset=utf-8
+INFO  2020-01-06 16:00:03,912 [28   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+WARN  2020-01-06 16:00:03,918 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:03,919 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:03,923 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 27.020400000000002ms
+INFO  2020-01-06 16:00:03,989 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:04,030 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:04,037 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 178.1054ms 200 application/x-javascript
+INFO  2020-01-06 16:00:04,054 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 156.2767ms
+INFO  2020-01-06 16:00:04,084 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:04,097 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 272.3441ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:04,111 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 16:00:04,140 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:04,153 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-01-06 16:00:04,175 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:04,189 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=UxxIIZ0QTIUzv0mjkk2-ag  
+INFO  2020-01-06 16:00:04,206 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 84.0566ms 200 application/json
+INFO  2020-01-06 16:00:04,236 [31   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Admin\source\repos\5.0.0\aspnet-core\src\ShoppingV2.Web.Mvc\wwwroot\favicon.ico'
+INFO  2020-01-06 16:00:04,247 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-01-06 16:00:04,250 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 94.58850000000001ms 200 image/x-icon
+DEBUG 2020-01-06 16:00:04,348 [28   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"UxxIIZ0QTIUzv0mjkk2-ag","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T16:00:04.3477822+05:30","Properties":{}}
+DEBUG 2020-01-06 16:00:04,348 [28   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: UxxIIZ0QTIUzv0mjkk2-ag
+INFO  2020-01-06 16:00:05,733 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/Orders  
+INFO  2020-01-06 16:00:05,816 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 16:00:05,827 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:05,834 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Orders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Orders() on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 16:00:05,852 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:47
+DEBUG 2020-01-06 16:00:05,852 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:76
+DEBUG 2020-01-06 16:00:05,852 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:77
+DEBUG 2020-01-06 16:00:05,853 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:78
+DEBUG 2020-01-06 16:00:05,853 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:79
+DEBUG 2020-01-06 16:00:05,853 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:82
+DEBUG 2020-01-06 16:00:05,853 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:84
+DEBUG 2020-01-06 16:00:05,853 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+INFO  2020-01-06 16:00:05,885 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Orders.
+DEBUG 2020-01-06 16:00:05,931 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 16:00:05,931 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 16:00:05,948 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:05,949 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:06,098 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Orders executed in 102.63130000000001ms.
+DEBUG 2020-01-06 16:00:06,133 [24   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: UxxIIZ0QTIUzv0mjkk2-ag
+DEBUG 2020-01-06 16:00:06,176 [31   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 16:00:06,185 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 16:00:06,226 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc) in 315.0672ms
+INFO  2020-01-06 16:00:06,252 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2006.9262ms 101 
+INFO  2020-01-06 16:00:06,278 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:06,293 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 16:00:06,315 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 564.8547ms 200 text/html; charset=utf-8
+INFO  2020-01-06 16:00:06,341 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:06,359 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 16:00:06,375 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:06,380 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:06,409 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+WARN  2020-01-06 16:00:06,461 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:06,462 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:06,512 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 16:00:06,524 [29   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:06,541 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 114.125ms
+INFO  2020-01-06 16:00:06,575 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 157.3916ms
+INFO  2020-01-06 16:00:06,585 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:06,594 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:06,601 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 430.71770000000004ms 200 application/x-javascript
+INFO  2020-01-06 16:00:06,631 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 434.8419ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:06,647 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 16:00:06,681 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:06,716 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:06,765 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=YKvqkStrsM4_FsPqWnrJ6Q  
+INFO  2020-01-06 16:00:06,781 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 114.4543ms 200 application/json
+INFO  2020-01-06 16:00:06,799 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 16:00:06,832 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"YKvqkStrsM4_FsPqWnrJ6Q","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T16:00:06.8326478+05:30","Properties":{}}
+DEBUG 2020-01-06 16:00:06,833 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: YKvqkStrsM4_FsPqWnrJ6Q
+INFO  2020-01-06 16:00:09,085 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/Orders  
+INFO  2020-01-06 16:00:09,125 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 16:00:09,172 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:09,207 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Orders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Orders() on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 16:00:09,238 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:47
+DEBUG 2020-01-06 16:00:09,238 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:76
+DEBUG 2020-01-06 16:00:09,238 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:77
+DEBUG 2020-01-06 16:00:09,238 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:78
+DEBUG 2020-01-06 16:00:09,238 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:79
+DEBUG 2020-01-06 16:00:09,239 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:82
+DEBUG 2020-01-06 16:00:09,239 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:84
+DEBUG 2020-01-06 16:00:09,239 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:101
+INFO  2020-01-06 16:00:09,338 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Orders.
+DEBUG 2020-01-06 16:00:09,422 [29   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 16:00:09,423 [29   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 16:00:09,447 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:09,450 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:09,660 [29   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Orders executed in 182.47390000000001ms.
+INFO  2020-01-06 16:00:09,839 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc) in 453.26140000000004ms
+INFO  2020-01-06 16:00:09,933 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+DEBUG 2020-01-06 16:00:10,008 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: YKvqkStrsM4_FsPqWnrJ6Q
+INFO  2020-01-06 16:00:10,016 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 16:00:10,099 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:10,108 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 16:00:10,160 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+WARN  2020-01-06 16:00:10,202 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:10,203 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:10,252 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3407.8048000000003ms 101 
+INFO  2020-01-06 16:00:10,267 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:10,283 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:10,306 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:10,338 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:10,403 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 130.2056ms
+INFO  2020-01-06 16:00:10,425 [28   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 16:00:10,441 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:10,450 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1280.3862000000001ms 200 text/html; charset=utf-8
+INFO  2020-01-06 16:00:10,469 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 709.3334ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:10,499 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 134.8478ms
+INFO  2020-01-06 16:00:10,516 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:10,556 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 680.6861ms 200 application/x-javascript
+INFO  2020-01-06 16:00:10,600 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 16:00:10,670 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:10,703 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:10,735 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 137.1054ms 200 application/json
+INFO  2020-01-06 16:00:10,738 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=145nAxQzZxWI0tsy-U-TcA  
+INFO  2020-01-06 16:00:10,769 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 16:00:10,804 [31   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"145nAxQzZxWI0tsy-U-TcA","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T16:00:10.8037743+05:30","Properties":{}}
+DEBUG 2020-01-06 16:00:10,804 [31   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 145nAxQzZxWI0tsy-U-TcA
+DEBUG 2020-01-06 16:00:11,182 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 16:00:11,707 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/Orders  
+INFO  2020-01-06 16:00:11,734 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 16:00:11,745 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:11,752 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Orders", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Orders() on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 16:00:11,760 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:47
+DEBUG 2020-01-06 16:00:11,760 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:76
+DEBUG 2020-01-06 16:00:11,760 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:77
+DEBUG 2020-01-06 16:00:11,761 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:78
+DEBUG 2020-01-06 16:00:11,761 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:79
+DEBUG 2020-01-06 16:00:11,761 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:82
+DEBUG 2020-01-06 16:00:11,761 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:84
+INFO  2020-01-06 16:00:11,823 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Orders.
+DEBUG 2020-01-06 16:00:11,851 [30   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 16:00:11,851 [30   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 16:00:11,865 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:11,866 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:11,897 [30   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Orders executed in 68.7979ms.
+INFO  2020-01-06 16:00:11,915 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc) in 146.5822ms
+DEBUG 2020-01-06 16:00:11,951 [28   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 145nAxQzZxWI0tsy-U-TcA
+INFO  2020-01-06 16:00:11,955 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.Orders (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:11,990 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 16:00:12,002 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 263.9497ms 200 text/html; charset=utf-8
+INFO  2020-01-06 16:00:12,018 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1290.4732000000001ms 101 
+INFO  2020-01-06 16:00:12,093 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 16:00:12,102 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 16:00:12,131 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:12,150 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:12,171 [24   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:12,183 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+WARN  2020-01-06 16:00:12,215 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:12,216 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:12,231 [24   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 16:00:12,283 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 61.642900000000004ms
+INFO  2020-01-06 16:00:12,294 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:12,297 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:12,313 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 109.78ms
+INFO  2020-01-06 16:00:12,321 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 251.72820000000002ms 200 application/x-javascript
+INFO  2020-01-06 16:00:12,332 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:12,347 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 271.94640000000004ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:12,380 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 16:00:12,429 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:12,501 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:12,504 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-01-06 16:00:12,519 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=HOqRFFcsqEaH7QABqgPfvQ  
+INFO  2020-01-06 16:00:12,538 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 146.8007ms 200 application/json
+INFO  2020-01-06 16:00:12,581 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-01-06 16:00:12,633 [31   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Admin\source\repos\5.0.0\aspnet-core\src\ShoppingV2.Web.Mvc\wwwroot\favicon.ico'
+DEBUG 2020-01-06 16:00:12,636 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"HOqRFFcsqEaH7QABqgPfvQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T16:00:12.636793+05:30","Properties":{}}
+DEBUG 2020-01-06 16:00:12,637 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: HOqRFFcsqEaH7QABqgPfvQ
+INFO  2020-01-06 16:00:12,665 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 150.1027ms 200 image/x-icon
+INFO  2020-01-06 16:00:13,792 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=84  
+INFO  2020-01-06 16:00:13,801 [31   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 16:00:13,811 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:13,817 [31   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 16:00:13,828 [31   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:84
+DEBUG 2020-01-06 16:00:13,828 [31   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:2
+DEBUG 2020-01-06 16:00:13,828 [31   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:138
+INFO  2020-01-06 16:00:13,846 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 16:00:13,864 [28   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 16:00:13,864 [28   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 16:00:13,878 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:13,878 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:13,906 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 54.4164ms.
+INFO  2020-01-06 16:00:13,929 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 92.2513ms
+DEBUG 2020-01-06 16:00:13,939 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: HOqRFFcsqEaH7QABqgPfvQ
+INFO  2020-01-06 16:00:13,960 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:13,965 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 16:00:13,973 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 186.4605ms 200 text/html; charset=utf-8
+INFO  2020-01-06 16:00:13,992 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1466.1278ms 101 
+INFO  2020-01-06 16:00:14,059 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 16:00:14,082 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 16:00:14,099 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:14,114 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:14,126 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:14,133 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 16:00:14,158 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 21.230800000000002ms
+INFO  2020-01-06 16:00:14,161 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+WARN  2020-01-06 16:00:14,190 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:14,191 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:14,229 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:14,241 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 193.5189ms 200 application/x-javascript
+INFO  2020-01-06 16:00:14,259 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:14,273 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 96.2234ms
+INFO  2020-01-06 16:00:14,291 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:14,299 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 232.76260000000002ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:14,325 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 16:00:14,392 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:14,425 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:14,447 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=ECNThdgilp7OWfMXDvDXIw  
+INFO  2020-01-06 16:00:14,458 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 114.32770000000001ms 200 application/json
+INFO  2020-01-06 16:00:14,483 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 16:00:14,530 [31   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"ECNThdgilp7OWfMXDvDXIw","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T16:00:14.5304278+05:30","Properties":{}}
+DEBUG 2020-01-06 16:00:14,531 [31   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: ECNThdgilp7OWfMXDvDXIw
+DEBUG 2020-01-06 16:00:16,207 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2020-01-06 16:00:21,226 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 16:00:22,622 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=84  
+INFO  2020-01-06 16:00:22,676 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 16:00:22,707 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:22,740 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 16:00:22,773 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:84
+DEBUG 2020-01-06 16:00:22,773 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:2
+DEBUG 2020-01-06 16:00:22,773 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:138
+INFO  2020-01-06 16:00:22,819 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 16:00:22,880 [24   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 16:00:22,880 [24   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 16:00:22,913 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:22,915 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+DEBUG 2020-01-06 16:00:27,559 [31   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 16:00:27,577 [24   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 4689.6459ms.
+INFO  2020-01-06 16:00:27,609 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+DEBUG 2020-01-06 16:00:27,613 [28   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: ECNThdgilp7OWfMXDvDXIw
+INFO  2020-01-06 16:00:27,629 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 4836.947ms
+INFO  2020-01-06 16:00:27,642 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:27,664 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:27,679 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 16:00:27,763 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5076.571800000001ms 200 text/html; charset=utf-8
+INFO  2020-01-06 16:00:27,829 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13256.9832ms 101 
+INFO  2020-01-06 16:00:27,915 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:27,927 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+WARN  2020-01-06 16:00:27,940 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:27,941 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:27,951 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:27,992 [31   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:28,447 [29   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:28,458 [31   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 16:00:28,481 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 542.0604000000001ms
+INFO  2020-01-06 16:00:28,533 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 475.1924ms
+INFO  2020-01-06 16:00:28,551 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:28,572 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:28,582 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 985.4127000000001ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:28,598 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 999.2841000000001ms 200 application/x-javascript
+INFO  2020-01-06 16:00:29,208 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 16:00:29,245 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:29,265 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:29,281 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=QmraK_w68WvbasnJNqfnFg  
+INFO  2020-01-06 16:00:29,298 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 658.2236ms 200 application/json
+INFO  2020-01-06 16:00:29,339 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 16:00:29,359 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"QmraK_w68WvbasnJNqfnFg","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T16:00:29.3593645+05:30","Properties":{}}
+DEBUG 2020-01-06 16:00:29,360 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: QmraK_w68WvbasnJNqfnFg
+DEBUG 2020-01-06 16:00:32,594 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2020-01-06 16:00:33,872 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Orders/OrderItems?ordid=84  
+INFO  2020-01-06 16:00:33,893 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-06 16:00:33,900 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:33,911 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "OrderItems", controller = "Orders", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OrderItems(Int32) on controller ShoppingV2.Web.Controllers.OrdersController (ShoppingV2.Web.Mvc).
+DEBUG 2020-01-06 16:00:33,919 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderDL, Id:84
+DEBUG 2020-01-06 16:00:33,919 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.CustomerDL, Id:2
+DEBUG 2020-01-06 16:00:33,919 [5    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Entities.OrderItemDL, Id:138
+INFO  2020-01-06 16:00:33,959 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view OrderItems.
+DEBUG 2020-01-06 16:00:33,982 [29   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.MultiTenancy.Tenant, Id:1
+DEBUG 2020-01-06 16:00:33,982 [29   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ShoppingV2.Authorization.Users.User, Id:2
+WARN  2020-01-06 16:00:33,999 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:34,012 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:34,049 [29   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view OrderItems executed in 86.5687ms.
+INFO  2020-01-06 16:00:34,084 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc) in 138.1732ms
+DEBUG 2020-01-06 16:00:34,162 [31   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: QmraK_w68WvbasnJNqfnFg
+INFO  2020-01-06 16:00:34,179 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ShoppingV2.Web.Controllers.OrdersController.OrderItems (ShoppingV2.Web.Mvc)'
+INFO  2020-01-06 16:00:34,212 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-06 16:00:34,215 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637139229748807320  
+INFO  2020-01-06 16:00:34,248 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 316.7393ms 200 text/html; charset=utf-8
+INFO  2020-01-06 16:00:34,281 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:34,292 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637139229748807320  
+INFO  2020-01-06 16:00:34,319 [24   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-06 16:00:34,337 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:34,349 [24   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-06 16:00:34,385 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+WARN  2020-01-06 16:00:34,416 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'AddCart' in localization source 'ShoppingV2'!
+WARN  2020-01-06 16:00:34,417 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'View Orders' in localization source 'ShoppingV2'!
+INFO  2020-01-06 16:00:34,463 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4950.7774ms 101 
+INFO  2020-01-06 16:00:34,503 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 65.17190000000001ms
+INFO  2020-01-06 16:00:34,520 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:34,533 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:34,598 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 145.7474ms
+INFO  2020-01-06 16:00:34,609 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 353.94010000000003ms 200 application/x-javascript
+INFO  2020-01-06 16:00:34,653 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-06 16:00:34,694 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 424.86690000000004ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-06 16:00:34,782 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-01-06 16:00:34,799 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-06 16:00:34,864 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Admin\source\repos\5.0.0\aspnet-core\src\ShoppingV2.Web.Mvc\wwwroot\favicon.ico'
+INFO  2020-01-06 16:00:34,867 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:34,900 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 117.1404ms 200 image/x-icon
+INFO  2020-01-06 16:00:34,947 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-06 16:00:34,981 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 169.6943ms 200 application/json
+INFO  2020-01-06 16:00:35,000 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Tp-2DZW0Zpth5zAKbaxtzw  
+INFO  2020-01-06 16:00:35,049 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-06 16:00:35,128 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Tp-2DZW0Zpth5zAKbaxtzw","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-01-06T16:00:35.1276743+05:30","Properties":{}}
+DEBUG 2020-01-06 16:00:35,129 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Tp-2DZW0Zpth5zAKbaxtzw
+DEBUG 2020-01-06 16:00:37,604 [24   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null

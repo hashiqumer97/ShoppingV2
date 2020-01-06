@@ -68,16 +68,14 @@ namespace ShoppingV2.Service
                 if (!item.IsDelete)
                     if (item.OrderitemQuantity >= 100)
                         throw new InvalidOperationException("Quantity has been exceeded!");
-                if (getProductId.Quantity <= 0)
-                    throw new InvalidOperationException("Quantity is over!");
-
+                    if (getProductId.Quantity <= 0)
+                        throw new InvalidOperationException("Quantity is over!");
                 var tempOrdLine = tempOrder.OrderLineItems.FirstOrDefault(f => f.Id == item.Id);
                 var tempDiff = tempOrdLine.OrderitemQuantity - item.OrderitemQuantity;
                 tempOrdLine.ProductId = item.ProductId;
                 tempOrdLine.OrderitemQuantity = item.OrderitemQuantity;
                 tempOrdLine.OrderitemDate = item.OrderitemDate;
                 tempOrdLine.OrderitemProductPrice = item.OrderitemProductPrice;
-                tempOrder.ProductOrderDate = item.OrderitemDate;
                 productService.UpdateProductQuantity(item.ProductId, tempDiff);
                 repository.Update(tempOrder);
                 if (item.IsDelete)

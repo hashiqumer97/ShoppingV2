@@ -66,32 +66,27 @@ namespace ShoppingV2.Service
             {
                 var getProductId = productRepository.Get(item.ProductId);
                 if (!item.IsDelete)
+                {
                     if (item.OrderitemQuantity >= 100)
                         throw new InvalidOperationException("Quantity has been exceeded!");
                     if (getProductId.Quantity <= 0)
                         throw new InvalidOperationException("Quantity is over!");
-                var tempOrdLine = tempOrder.OrderLineItems.FirstOrDefault(f => f.Id == item.Id);
-                var tempDiff = tempOrdLine.OrderitemQuantity - item.OrderitemQuantity;
-                tempOrdLine.ProductId = item.ProductId;
-                tempOrdLine.OrderitemQuantity = item.OrderitemQuantity;
-                tempOrdLine.OrderitemDate = item.OrderitemDate;
-                tempOrdLine.OrderitemProductPrice = item.OrderitemProductPrice;
-                productService.UpdateProductQuantity(item.ProductId, tempDiff);
-                repository.Update(tempOrder);
+                    var tempOrdLine = tempOrder.OrderLineItems.FirstOrDefault(f => f.Id == item.Id);
+                    var tempDiff = tempOrdLine.OrderitemQuantity - item.OrderitemQuantity;
+                    tempOrdLine.ProductId = item.ProductId;
+                    tempOrdLine.OrderitemQuantity = item.OrderitemQuantity;
+                    tempOrdLine.OrderitemDate = item.OrderitemDate;
+                    tempOrdLine.OrderitemProductPrice = item.OrderitemProductPrice;
+                    productService.UpdateProductQuantity(item.ProductId, tempDiff);
+                    repository.Update(tempOrder);
+                }
                 if (item.IsDelete)
-                    RemoveOrder(items);
-            }
-            unitOfWork.SaveChanges();
-        }
-        private void RemoveOrder(OrderBL items)
-        {
-            var tempOrder = repository.GetAllIncluding().Include(i => i.OrderLineItems).First(o => o.Id == items.Id);
-            foreach (var item in items.OrderLineItems)
-            {
-                var ordItem = tempOrder.OrderLineItems.FirstOrDefault(o => o.Id == item.Id);
-                var deleteDiff = ordItem.OrderitemQuantity + 0;
-                productService.UpdateProductQuantity(item.ProductId, deleteDiff);
-                tempOrder.OrderLineItems.Remove(ordItem);
+                {
+                    var ordItem = tempOrder.OrderLineItems.FirstOrDefault(o => o.Id == item.Id);
+                    var deleteDiff = ordItem.OrderitemQuantity + 0;
+                    productService.UpdateProductQuantity(item.ProductId, deleteDiff);
+                    tempOrder.OrderLineItems.Remove(ordItem);
+                }
             }
             unitOfWork.SaveChanges();
         }

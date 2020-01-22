@@ -26,6 +26,25 @@ namespace ShoppingV2.BusinessObjects
             CustomerId = customerId;
             OrderLineItems = orderItems;
             ProductOrderDate = productOrderDate;
+
+            foreach (var item in orderItems)
+            {
+                if (item.OrderitemQuantity >= 100)
+                    throw new InvalidOperationException("Quantity has been exceeded!");
+                if (item.OrderitemQuantity == 0)
+                    throw new InvalidOperationException("Please enter the quantity!");
+            }
+        }
+        public OrderBL(List<OrderItemBL> orderItems)
+        {
+            OrderLineItems = orderItems;
+            foreach (var item in orderItems)
+            {
+                if (item.OrderitemQuantity >= 100)
+                    throw new InvalidOperationException("Quantity has been exceeded!");
+                if (item.OrderitemQuantity == 0)
+                    throw new InvalidOperationException("Please enter the quantity!");
+            }
         }
         public OrderBL(int orderId)
         {

@@ -221,7 +221,7 @@ function deleteEntireOrder() {
             };
             console.log(JSON.stringify(orders));
             $.ajax({
-                url: 'http://localhost:21021/api/v1/Orders/DeleteEntireOrder',
+                url: 'http://localhost:21021/api/v1/Orders/Delete',
                 dataType: 'json',
                 type: 'delete',
                 contentType: 'application/json',

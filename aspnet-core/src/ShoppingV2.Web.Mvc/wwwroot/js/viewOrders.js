@@ -49,7 +49,7 @@ function updateOrder() {
     }
     console.log(JSON.stringify(order));
     $.ajax({
-        url: 'http://localhost:21021/api/v1/Orders/UpdateOrders',
+        url: 'http://localhost:21021/api/v1/Orders/Put',
         dataType: 'json',
         type: 'put',
         contentType: 'application/json',
@@ -107,9 +107,9 @@ function deleteOrder() {
     }
     console.log(JSON.stringify(order));
     $.ajax({
-        url: 'http://localhost:21021/api/v1/Orders/DeleteOrders',
+        url: 'http://localhost:21021/api/v1/Orders/Put',
         dataType: 'json',
-        type: 'delete',
+        type: 'put',
         contentType: 'application/json',
         data: JSON.stringify(order),
         processData: false,
